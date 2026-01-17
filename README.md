@@ -13,7 +13,7 @@ An Emacs major mode for editing [Mojo](https://www.modular.com/mojo) source code
 ## Requirements
 
 - Emacs 30.1+
-- [Mojo SDK](https://docs.modular.com/mojo/manual/get-started) (for LSP support)
+- [Mojo](https://docs.modular.com/mojo/manual/install) (for LSP support)
 
 ## Installation
 
