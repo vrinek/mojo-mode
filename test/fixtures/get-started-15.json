@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-15",
+  "code": "my_grid = Grid(2, 2, [[0, 1], [1, 1]])\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 39,
+      "type": "plain",
+      "text": "my_grid = Grid(2, 2, [[0, 1], [1, 1]])\n"
+    }
+  ]
+}

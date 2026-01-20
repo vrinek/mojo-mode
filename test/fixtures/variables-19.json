@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-19",
+  "code": "first = [1, 2, 3]\nsecond = first  # error: 'List[Int]' is not implicitly copyable because it does\n                 # not conform to 'ImplicitlyCopyable'\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "first = [1, 2, 3]\n"
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "type": "plain",
+      "text": "first "
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 98,
+      "end": 153,
+      "type": "plain",
+      "text": "                 # not conform to 'ImplicitlyCopyable'\n"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-19",
+  "code": "def repeat[count: Int](msg: String):\n    @parameter # evaluate the following for loop at compile time\n    for i in range(count):\n        print(msg)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 37,
+      "type": "plain",
+      "text": "def repeat[count: Int](msg: String):\n"
+    },
+    {
+      "start": 121,
+      "end": 126,
+      "type": "plain",
+      "text": "count"
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 142,
+      "end": 143,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 143,
+      "end": 146,
+      "type": "plain",
+      "text": "msg"
+    },
+    {
+      "start": 146,
+      "end": 147,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

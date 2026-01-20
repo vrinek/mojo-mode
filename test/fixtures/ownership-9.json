@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-9",
+  "code": "fn main():\n    var message = \"Hello\"  # Create a run-time String value\n    take_text(message^)\n    print(message)  # error: use of uninitialized value 'message'\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 11,
+      "type": "plain",
+      "text": "fn main():\n"
+    },
+    {
+      "start": 11,
+      "end": 12,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 123,
+      "end": 124,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 152,
+      "end": 159,
+      "type": "plain",
+      "text": "message"
+    }
+  ]
+}

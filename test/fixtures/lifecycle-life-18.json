@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-18",
+  "code": "fn __copyinit__(out self, existing: Self):\n    self.name = existing.name\n    self.age = existing.age\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 43,
+      "type": "plain",
+      "text": "fn __copyinit__(out self, existing: Self):\n"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 58,
+      "end": 67,
+      "type": "plain",
+      "text": " existing"
+    },
+    {
+      "start": 73,
+      "end": 77,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 77,
+      "end": 81,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 87,
+      "end": 96,
+      "type": "plain",
+      "text": " existing"
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 97,
+      "end": 100,
+      "type": "plain",
+      "text": "age"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-2",
+  "code": "var vec = SIMD[DType.float32, 4](3.0, 2.0, 2.0, 1.0)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 53,
+      "type": "plain",
+      "text": "var vec = SIMD[DType.float32, 4](3.0, 2.0, 2.0, 1.0)\n"
+    }
+  ]
+}

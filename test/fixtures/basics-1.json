@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-1",
+  "code": "def main():\n    x = 10\n    y = x * x\n    print(y)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 12,
+      "type": "plain",
+      "text": "def main():\n"
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

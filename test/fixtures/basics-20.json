@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-20",
+  "code": "def call_repeat():\n    repeat[3](\"Hello\")\n    # Prints \"Hello\" 3 times\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "def call_repeat():\n"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "type": "number",
+      "text": "3"
+    }
+  ]
+}

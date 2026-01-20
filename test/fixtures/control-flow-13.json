@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-13",
+  "code": "from collections import Set\n\nvalues = {42, 0}\nfor item in values:\n    print(item)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 28,
+      "type": "plain",
+      "text": "from collections import Set\n"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 29,
+      "end": 46,
+      "type": "plain",
+      "text": "values = {42, 0}\n"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 55,
+      "end": 57,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 57,
+      "end": 64,
+      "type": "plain",
+      "text": " values"
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 66,
+      "end": 82,
+      "type": "plain",
+      "text": "    print(item)\n"
+    }
+  ]
+}

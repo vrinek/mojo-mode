@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-14",
+  "code": "fn __exit__(self, error: Error) raises -> Bool\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 47,
+      "type": "plain",
+      "text": "fn __exit__(self, error: Error) raises -> Bool\n"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-2",
+  "code": "trait Quackable:\n    fn quack(self):\n        pass\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "trait Quackable:\n"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 45,
+      "end": 49,
+      "type": "keyword",
+      "text": "pass"
+    }
+  ]
+}

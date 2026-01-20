@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-19",
+  "code": "for i in range(5):\n    if i == 3:\n        break\n    print(i, end=\", \")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "for i in range(5):\n"
+    },
+    {
+      "start": 25,
+      "end": 28,
+      "type": "plain",
+      "text": " i "
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

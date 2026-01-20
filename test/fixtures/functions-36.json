@@ -1,0 +1,139 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-36",
+  "code": "# This function will not compile\nfn unhandled_error():\n    raises_error()   # Error: can't call raising function in a non-raising context\n\n# Explicitly handle the error\nfn handle_error():\n    try:\n        raises_error()\n    except e:\n        print(\"Handled an error:\", e)\n\n# Explicitly propagate the error\nfn propagate_error() raises:\n    raises_error()\n\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "# This function will not compile\n"
+    },
+    {
+      "start": 33,
+      "end": 55,
+      "type": "plain",
+      "text": "fn unhandled_error():\n"
+    },
+    {
+      "start": 169,
+      "end": 171,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 171,
+      "end": 172,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 184,
+      "end": 185,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 185,
+      "end": 186,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 186,
+      "end": 187,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 201,
+      "end": 217,
+      "type": "plain",
+      "text": "    raises_error"
+    },
+    {
+      "start": 217,
+      "end": 218,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 218,
+      "end": 219,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 220,
+      "end": 223,
+      "type": "plain",
+      "text": "   "
+    },
+    {
+      "start": 233,
+      "end": 234,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 306,
+      "end": 308,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 308,
+      "end": 309,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 324,
+      "end": 325,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 325,
+      "end": 326,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 333,
+      "end": 334,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 335,
+      "end": 339,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 351,
+      "end": 352,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 352,
+      "end": 353,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 353,
+      "end": 354,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 354,
+      "end": 355,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

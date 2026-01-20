@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-5",
+  "code": "name = \"Sam\"\nuser_id = 0\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 13,
+      "type": "plain",
+      "text": "name = \"Sam\"\n"
+    },
+    {
+      "start": 21,
+      "end": 22,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "type": "number",
+      "text": "0"
+    }
+  ]
+}

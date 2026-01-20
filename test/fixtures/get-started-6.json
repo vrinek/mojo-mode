@@ -1,0 +1,151 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-6",
+  "code": "grid = [\n    [11, 22],\n    [33, 44]\n]\nprint(\"Row 0, Column 0:\", grid[0][0])\nprint(\"Row 0, Column 1:\", grid[0][1])\nprint(\"Row 1, Column 0:\", grid[1][0])\nprint(\"Row 1, Column 1:\", grid[1][1])\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 9,
+      "type": "plain",
+      "text": "grid = [\n"
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 13,
+      "end": 14,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 23,
+      "end": 27,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 108,
+      "end": 109,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 114,
+      "end": 119,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 139,
+      "end": 144,
+      "type": "plain",
+      "text": " grid"
+    },
+    {
+      "start": 144,
+      "end": 145,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "type": "number",
+      "text": "0"
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 182,
+      "end": 183,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 184,
+      "end": 185,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

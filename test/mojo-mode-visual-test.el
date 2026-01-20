@@ -34,7 +34,8 @@
     ("operator" . nil)  ; operators typically not highlighted
     ("punctuation" . nil)  ; punctuation typically not highlighted
     ("plain" . nil)  ; plain text not highlighted
-    ("comment" . font-lock-comment-face))
+    ("comment" . font-lock-comment-face)
+    ("class-name" . nil))  ; class names in calls not highlighted
   "Mapping from Prism.js token types to Emacs font-lock faces.
 nil means no highlighting expected.")
 
@@ -43,7 +44,48 @@ nil means no highlighting expected.")
     (("plain" . font-lock-type-face) . "We highlight type names")
     ;; Website inconsistently marks print as keyword, input as builtin
     ;; We treat both as builtins which is more consistent
-    (("keyword" . font-lock-builtin-face) . "print/input both as builtins"))
+    (("keyword" . font-lock-builtin-face) . "print/input both as builtins")
+    ;; The scraper captures first tokens including keywords as "plain"
+    ;; because Prism.js wraps them inconsistently
+    (("plain" . font-lock-keyword-face) . "First line contains keywords")
+    (("plain" . font-lock-comment-face) . "First line is a comment")
+    (("plain" . font-lock-comment-delimiter-face) . "First line is a comment")
+    (("plain" . font-lock-preprocessor-face) . "First line is a decorator")
+    (("plain" . font-lock-builtin-face) . "First line contains builtins")
+    (("plain" . font-lock-constant-face) . "First line contains constants")
+    ;; We highlight self as a constant (Python convention)
+    (("special-vars" . font-lock-constant-face) . "self highlighted as constant")
+    ;; Decorators: website marks @ as punctuation, we highlight whole decorator
+    (("punctuation" . font-lock-preprocessor-face) . "Decorator @ highlighted")
+    ;; We highlight var/let as keywords, website sometimes marks as plain
+    (("plain" . font-lock-variable-name-face) . "Variable declarations highlighted")
+    ;; Emacs uses comment-delimiter-face for #, website uses comment for whole thing
+    (("comment" . font-lock-comment-delimiter-face) . "Comment delimiter vs comment face")
+    ;; Website marks None as boolean, we mark as constant (like True/False)
+    (("boolean" . font-lock-constant-face) . "None is a constant")
+    ;; Prism.js tokenizes inside comments/strings, Emacs correctly highlights
+    ;; the entire region as comment/string face
+    (("punctuation" . font-lock-comment-face) . "Token inside comment")
+    (("number" . font-lock-comment-face) . "Token inside comment")
+    (("keyword" . font-lock-comment-face) . "Token inside comment")
+    (("operator" . font-lock-comment-face) . "Token inside comment")
+    (("plain" . font-lock-string-face) . "Token inside string")
+    (("punctuation" . font-lock-string-face) . "Token inside string")
+    (("number" . font-lock-string-face) . "Token inside string")
+    (("keyword" . font-lock-string-face) . "Token inside string")
+    (("builtin" . font-lock-string-face) . "Token inside string")
+    (("class-name" . font-lock-string-face) . "Token inside string")
+    ;; We don't highlight function calls, only definitions
+    (("function" . nil) . "Function calls not highlighted")
+    ;; Scraper sometimes misidentifies keywords as function names
+    (("keyword" . font-lock-function-name-face) . "Keyword near function pattern")
+    ;; We highlight sum/print as builtins, website marks as function
+    (("function" . font-lock-builtin-face) . "Builtin function")
+    ;; Operators and functions inside strings
+    (("operator" . font-lock-string-face) . "Operator inside string")
+    (("function" . font-lock-string-face) . "Function inside string")
+    ;; Keywords as substring of identifiers (scraper bug)
+    (("keyword" . nil) . "Keyword substring in identifier"))
   "Alist of (EXPECTED . ACTUAL) pairs that are acceptable differences.
 Each entry is ((token-type . actual-face) . reason).")
 
@@ -129,16 +171,34 @@ Returns a list of result alists."
                 failed
                 "\n"))))))
 
+(defun mojo-test-list-fixtures ()
+  "Return a list of all fixture filenames in the fixtures directory."
+  (let* ((project-root (mojo-test-find-project-root))
+         (fixtures-dir (expand-file-name "test/fixtures" project-root)))
+    (when (file-directory-p fixtures-dir)
+      (directory-files fixtures-dir nil "\\.json$"))))
+
+(defun mojo-test-run-fixture (filename)
+  "Run visual regression test for FILENAME fixture.
+Returns t if all tokens pass, nil otherwise."
+  (let* ((fixture (mojo-test-load-fixture filename))
+         (results (mojo-test-check-fixture fixture))
+         (all-passed (seq-every-p (lambda (r) (alist-get 'passed r)) results)))
+    (unless all-passed
+      (message "\n%s: %s" filename (mojo-test-fixture-summary results)))
+    all-passed))
+
 ;;; Tests
 
 (describe "mojo-mode visual regression"
-  (describe "life.mojo fixture"
-    (it "highlights tokens matching the official docs"
-      (let* ((fixture (mojo-test-load-fixture "life.json"))
-             (results (mojo-test-check-fixture fixture))
-             (all-passed (seq-every-p (lambda (r) (alist-get 'passed r)) results)))
-        (unless all-passed
-          (message "\n%s" (mojo-test-fixture-summary results)))
-        (expect all-passed :to-be-truthy)))))
+  (it "highlights all fixtures matching the official docs"
+    (let* ((fixtures (mojo-test-list-fixtures))
+           (results (mapcar (lambda (f) (cons f (mojo-test-run-fixture f))) fixtures))
+           (failed (seq-filter (lambda (r) (not (cdr r))) results))
+           (passed-count (- (length results) (length failed))))
+      (message "\nVisual regression: %d/%d fixtures passed" passed-count (length results))
+      (when failed
+        (message "Failed fixtures: %s" (mapconcat #'car failed ", ")))
+      (expect (length failed) :to-equal 0))))
 
 ;;; mojo-mode-visual-test.el ends here

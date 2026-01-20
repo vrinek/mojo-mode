@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-6",
+  "code": "from utils.numerics import max_finite, min_finite\n\ndef describeDType[dtype: DType]():\n    print(dtype, \"is floating-point:\", dtype.is_floating_point())\n    print(dtype, \"is integral:\", dtype.is_integral())\n    print(\"Min/max finite values for\", dtype)\n    print(min_finite[dtype](), max_finite[dtype]())\n\ndescribeDType[DType.float32]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 50,
+      "type": "plain",
+      "text": "from utils.numerics import max_finite, min_finite\n"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 282,
+      "end": 293,
+      "type": "plain",
+      "text": " max_finite"
+    },
+    {
+      "start": 303,
+      "end": 304,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 318,
+      "end": 319,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 332,
+      "end": 333,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 333,
+      "end": 334,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 334,
+      "end": 335,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 335,
+      "end": 336,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-21",
+  "code": "var list : List[UInt8] = [2, 3, 5]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 35,
+      "type": "plain",
+      "text": "var list : List[UInt8] = [2, 3, 5]\n"
+    }
+  ]
+}

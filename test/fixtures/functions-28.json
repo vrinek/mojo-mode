@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-28",
+  "code": "def get_greeting() -> String:\n    return \"Hello\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "def get_greeting() -> String:\n"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 34,
+      "end": 40,
+      "type": "keyword",
+      "text": "return"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 41,
+      "end": 48,
+      "type": "string",
+      "text": "\"Hello\""
+    }
+  ]
+}

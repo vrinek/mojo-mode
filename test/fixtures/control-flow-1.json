@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-1",
+  "code": "temp_celsius = 22\nif temp_celsius < 15: print(\"It is cool.\") # Skipped because condition is False\nif temp_celsius > 20: print(\"It is warm.\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "temp_celsius = 22\n"
+    },
+    {
+      "start": 21,
+      "end": 34,
+      "type": "plain",
+      "text": "temp_celsius "
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 98,
+      "end": 100,
+      "type": "keyword",
+      "text": "if"
+    },
+    {
+      "start": 100,
+      "end": 114,
+      "type": "plain",
+      "text": " temp_celsius "
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 118,
+      "end": 119,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 120,
+      "end": 125,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 139,
+      "end": 140,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

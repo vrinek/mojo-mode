@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-9",
+  "code": "var s: String = \"Testing\"\ns += \" Mojo strings\"\nprint(s)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "var s: String = \"Testing\"\n"
+    },
+    {
+      "start": 37,
+      "end": 39,
+      "type": "plain",
+      "text": " s"
+    },
+    {
+      "start": 47,
+      "end": 56,
+      "type": "plain",
+      "text": "print(s)\n"
+    }
+  ]
+}

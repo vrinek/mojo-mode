@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-16",
+  "code": "struct MyStruct:\n    var foo: Int = 10 # Error: Unknown tokens\n    comptime bar = 10 # Yes\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "struct MyStruct:\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 63,
+      "end": 67,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 82,
+      "end": 84,
+      "type": "number",
+      "text": "10"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

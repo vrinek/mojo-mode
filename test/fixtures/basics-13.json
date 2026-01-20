@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-13",
+  "code": "def use_mypair():\n    var mine = MyPair(2, 4)\n    mine.dump()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "def use_mypair():\n"
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

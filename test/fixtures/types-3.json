@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-3",
+  "code": "var vec1 = SIMD[DType.int8, 4](2, 3, 5, 7)\nvar vec2 = SIMD[DType.int8, 4](1, 2, 3, 4)\nvar product = vec1 * vec2\nprint(product)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 43,
+      "type": "plain",
+      "text": "var vec1 = SIMD[DType.int8, 4](2, 3, 5, 7)\n"
+    },
+    {
+      "start": 43,
+      "end": 46,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 99,
+      "end": 105,
+      "type": "plain",
+      "text": " vec1 "
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

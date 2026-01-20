@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-20",
+  "code": "Logger.log_info(\"Static method called.\")\nvar l = Logger()\nl.log_info(\"Static method called from instance.\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 41,
+      "type": "plain",
+      "text": "Logger.log_info(\"Static method called.\")\n"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "type": "plain",
+      "text": "Logger"
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 60,
+      "end": 68,
+      "type": "plain",
+      "text": "log_info"
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-10",
+  "code": "fn __ne__(self, other: Self) -> Bool:\n    return not self.__eq__(other)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 38,
+      "type": "plain",
+      "text": "fn __ne__(self, other: Self) -> Bool:\n"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 70,
+      "end": 71,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

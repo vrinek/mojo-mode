@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-3",
+  "code": "# The List in row can contain only Int values\nrow = List[Int]()\n\n# The List in names can contain only String values\nnames = List[String]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 46,
+      "type": "plain",
+      "text": "# The List in row can contain only Int values\n"
+    },
+    {
+      "start": 46,
+      "end": 64,
+      "type": "plain",
+      "text": "row = List[Int]()\n"
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 123,
+      "end": 128,
+      "type": "plain",
+      "text": " List"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 135,
+      "end": 136,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 138,
+      "end": 139,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

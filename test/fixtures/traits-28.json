@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-28",
+  "code": "struct MyStack[type: Copyable & ImplicitlyDestructible](Stacklike):\n    \"\"\"A simple Stack built using a List.\"\"\"\n    comptime EltType = Self.type\n    comptime list_type = List[Self.EltType]\n\n    var list: Self.list_type\n\n    fn __init__(out self):\n        self.list = Self.list_type()\n\n    fn push(mut self, var item: Self.EltType):\n        self.list.append(item^)\n\n    fn pop(mut self) -> Self.EltType:\n        return self.list.pop()\n\n    fn dump[\n        WritableEltType: Writable & Copyable\n    ](self: MyStack[WritableEltType]):\n        print(\"[\", end=\"\")\n        for item in self.list:\n            print(item, end=\", \")\n        print(\"]\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 68,
+      "type": "plain",
+      "text": "struct MyStack[type: Copyable & ImplicitlyDestructible](Stacklike):\n"
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 506,
+      "end": 513,
+      "type": "class-name",
+      "text": "MyStack"
+    },
+    {
+      "start": 513,
+      "end": 514,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 531,
+      "end": 532,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 640,
+      "end": 641,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 642,
+      "end": 643,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 643,
+      "end": 644,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

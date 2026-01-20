@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-4",
+  "code": "print('Short-circuit \"and\" evaluation')\nif false_func() and true_func():\n    print(\"True result\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 40,
+      "type": "plain",
+      "text": "print('Short-circuit \"and\" evaluation')\n"
+    },
+    {
+      "start": 77,
+      "end": 82,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

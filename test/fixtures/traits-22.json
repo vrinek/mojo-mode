@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-22",
+  "code": "struct List[T: Copyable]:\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "struct List[T: Copyable]:\n"
+    }
+  ]
+}

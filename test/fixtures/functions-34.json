@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-34",
+  "code": "def create_immovable_object3(var name: String) -> ImmovableObject:\n    return ImmovableObject(name^) # OK\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 67,
+      "type": "plain",
+      "text": "def create_immovable_object3(var name: String) -> ImmovableObject:\n"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

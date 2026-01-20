@@ -1,0 +1,91 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-19",
+  "code": "struct HeapArray(Copyable):\n    var data: UnsafePointer[Int, MutExternalOrigin]\n    var size: Int\n    var cap: Int\n\n    fn __init__(out self, size: Int, val: Int):\n        self.size = size\n        self.cap = size * 2\n        self.data = alloc[Int](self.cap)\n        for i in range(self.size):\n            (self.data + i).init_pointee_copy(val)\n\n    fn __copyinit__(out self, existing: Self):\n        # Deep-copy the existing value\n        self.size = existing.size\n        self.cap = existing.cap\n        self.data = alloc[Int](self.cap)\n        for i in range(self.size):\n            (self.data + i).init_pointee_copy(existing.data[i])\n        # The lifetime of `existing` continues unchanged\n\n    fn __del__(deinit self):\n        # We must free the heap-allocated data, but\n        # Mojo knows how to destroy the other fields\n        for i in range(self.size):\n            (self.data + i).destroy_pointee()\n        self.data.free()\n\n    fn append(mut self, val: Int):\n        # Update the array for demo purposes\n        if self.size < self.cap:\n            (self.data + self.size).init_pointee_copy(val)\n            self.size += 1\n        else:\n            print(\"Out of bounds\")\n\n    fn dump(self):\n        # Print the array contents for demo purposes\n        print(\"[\", end=\"\")\n        for i in range(self.size):\n            if i > 0:\n                print(\", \", end=\"\")\n            print(self.data[i], end=\"\")\n        print(\"]\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 28,
+      "type": "plain",
+      "text": "struct HeapArray(Copyable):\n"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 161,
+      "end": 162,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 162,
+      "end": 163,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 164,
+      "end": 168,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 765,
+      "end": 770,
+      "type": "plain",
+      "text": " data"
+    },
+    {
+      "start": 862,
+      "end": 863,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 1272,
+      "end": 1273,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 1274,
+      "end": 1275,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 1406,
+      "end": 1407,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 1417,
+      "end": 1421,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1421,
+      "end": 1425,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1435,
+      "end": 1436,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-8",
+  "code": "def greet(name: String) -> String:\n    return \"Hello, \" + name + \"!\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 35,
+      "type": "plain",
+      "text": "def greet(name: String) -> String:\n"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 58,
+      "end": 62,
+      "type": "plain",
+      "text": "name"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 65,
+      "end": 68,
+      "type": "string",
+      "text": "\"!\""
+    }
+  ]
+}

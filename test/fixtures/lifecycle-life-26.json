@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-26",
+  "code": "@register_passable(\"trivial\")\nstruct Int:\n    ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "@register_passable(\"trivial\")\n"
+    },
+    {
+      "start": 30,
+      "end": 42,
+      "type": "plain",
+      "text": "struct Int:\n"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "punctuation",
+      "text": "."
+    }
+  ]
+}

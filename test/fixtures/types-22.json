@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-22",
+  "code": "var list2 = [x*Int(y) for x in nums for y in list if x != 3]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 61,
+      "type": "plain",
+      "text": "var list2 = [x*Int(y) for x in nums for y in list if x != 3]\n"
+    }
+  ]
+}

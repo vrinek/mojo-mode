@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-0",
+  "code": "raise Error(\"integer overflow\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 32,
+      "type": "plain",
+      "text": "raise Error(\"integer overflow\")\n"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-12",
+  "code": "var z: Float32\nvar y = z # Error: use of uninitialized value 'z'\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 15,
+      "type": "plain",
+      "text": "var z: Float32\n"
+    },
+    {
+      "start": 15,
+      "end": 18,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 22,
+      "end": 24,
+      "type": "plain",
+      "text": " z"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "punctuation",
+      "text": ":"
+    }
+  ]
+}

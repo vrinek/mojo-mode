@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-14",
+  "code": "# Tuples are immutable and can hold multiple types\nexample_tuple = Tuple[Int, String](1, \"Example\")\n\n# Assign multiple variables at once\nx, y = example_tuple\nprint(x, y)\n\n# Get individual values with an index\ns = example_tuple[1]\nprint(s)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 51,
+      "type": "plain",
+      "text": "# Tuples are immutable and can hold multiple types\n"
+    },
+    {
+      "start": 51,
+      "end": 100,
+      "type": "plain",
+      "text": "example_tuple = Tuple[Int, String](1, \"Example\")\n"
+    },
+    {
+      "start": 142,
+      "end": 143,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 226,
+      "end": 227,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 228,
+      "end": 229,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 235,
+      "end": 236,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 237,
+      "end": 238,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 238,
+      "end": 239,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

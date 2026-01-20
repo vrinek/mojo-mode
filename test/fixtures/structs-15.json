@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-15",
+  "code": "struct MyStruct:\n    var foo: Int\n\n    fn update_foo(mut self, new_value: Int):\n        self.foo = new_value\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "struct MyStruct:\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 73,
+      "end": 77,
+      "type": "plain",
+      "text": " Int"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 80,
+      "end": 84,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 88,
+      "end": 92,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 98,
+      "end": 108,
+      "type": "plain",
+      "text": " new_value"
+    }
+  ]
+}

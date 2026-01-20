@@ -1,0 +1,115 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "Initializer lists with a keyword argument",
+  "code": "def utility_function(argument: CustomType):\n    ...\n\nutility_function(CustomType(0.5, fish=\"swordfish\"))\n\n...is equivalent to...\n\nutility_function({0.5, fish=\"swordfish\"})\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 44,
+      "type": "plain",
+      "text": "def utility_function(argument: CustomType):\n"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 53,
+      "end": 69,
+      "type": "function",
+      "text": "utility_function"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 108,
+      "end": 109,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 130,
+      "end": 146,
+      "type": "plain",
+      "text": "utility_function"
+    },
+    {
+      "start": 146,
+      "end": 147,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 148,
+      "end": 151,
+      "type": "number",
+      "text": "0.5"
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 152,
+      "end": 157,
+      "type": "plain",
+      "text": " fish"
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 158,
+      "end": 169,
+      "type": "string",
+      "text": "\"swordfish\""
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 171,
+      "end": 172,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

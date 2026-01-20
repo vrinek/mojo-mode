@@ -1,0 +1,109 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-30",
+  "code": "# Two ways to initialize an Optional with a value\nvar opt1 = Optional(5)\nvar opt2: Optional[Int] = 5\n# Two ways to initialize an Optional with no value\nvar opt3 = Optional[Int]()\nvar opt4: Optional[Int] = None\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 50,
+      "type": "plain",
+      "text": "# Two ways to initialize an Optional with a value\n"
+    },
+    {
+      "start": 50,
+      "end": 73,
+      "type": "plain",
+      "text": "var opt1 = Optional(5)\n"
+    },
+    {
+      "start": 73,
+      "end": 76,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 128,
+      "end": 137,
+      "type": "plain",
+      "text": " Optional"
+    },
+    {
+      "start": 176,
+      "end": 177,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 177,
+      "end": 178,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 179,
+      "end": 182,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 187,
+      "end": 188,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 188,
+      "end": 197,
+      "type": "plain",
+      "text": " Optional"
+    },
+    {
+      "start": 197,
+      "end": 198,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 198,
+      "end": 201,
+      "type": "plain",
+      "text": "Int"
+    },
+    {
+      "start": 201,
+      "end": 202,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 202,
+      "end": 203,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 203,
+      "end": 204,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 204,
+      "end": 205,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 205,
+      "end": 209,
+      "type": "boolean",
+      "text": "None"
+    }
+  ]
+}

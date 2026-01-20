@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-7",
+  "code": "def take(var s: String):\n    pass\n\ndef main():\n    take(\"A brand-new String!\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "def take(var s: String):\n"
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 51,
+      "end": 55,
+      "type": "function",
+      "text": "take"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 68,
+      "end": 75,
+      "type": "plain",
+      "text": " String"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

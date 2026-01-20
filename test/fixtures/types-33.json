@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-33",
+  "code": "fn any_type_function[ValueType: AnyTrivialRegType](value: ValueType):\n    ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 70,
+      "type": "plain",
+      "text": "fn any_type_function[ValueType: AnyTrivialRegType](value: ValueType):\n"
+    },
+    {
+      "start": 70,
+      "end": 78,
+      "type": "plain",
+      "text": "    ...\n"
+    }
+  ]
+}

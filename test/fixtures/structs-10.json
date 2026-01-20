@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-10",
+  "code": "struct MyPair(Copyable):\n  ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "struct MyPair(Copyable):\n"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "punctuation",
+      "text": "."
+    }
+  ]
+}

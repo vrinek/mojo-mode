@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-16",
+  "code": "@fieldwise_init\nstruct SomeStruct(SomeTrait):\n    fn required_method(self, x: Int):\n        print(\"hello traits\", x)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 16,
+      "end": 46,
+      "type": "plain",
+      "text": "struct SomeStruct(SomeTrait):\n"
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 84,
+      "end": 88,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 113,
+      "end": 115,
+      "type": "plain",
+      "text": " x"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

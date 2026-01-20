@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-12",
+  "code": "with open(input_file, \"r\") as f_in, open(output_file, \"w\") as f_out:\n    input_text = f_in.read()\n    output_text = input_text.upper()\n    f_out.write(output_text)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 69,
+      "type": "plain",
+      "text": "with open(input_file, \"r\") as f_in, open(output_file, \"w\") as f_out:\n"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 133,
+      "end": 134,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 135,
+      "end": 136,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 150,
+      "end": 151,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 162,
+      "end": 163,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

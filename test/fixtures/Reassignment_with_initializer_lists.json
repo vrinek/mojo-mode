@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "Reassignment with initializer lists",
+  "code": "# Construct a new instance\nmy_instance = CustomType(0.5, fish=\"swordfish\")\n\n# Use the instance\n...\n\n# Update the instance before further use\nmy_instance = {0.7, fish=\"salmon\"}\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 27,
+      "type": "plain",
+      "text": "# Construct a new instance\n"
+    },
+    {
+      "start": 27,
+      "end": 75,
+      "type": "plain",
+      "text": "my_instance = CustomType(0.5, fish=\"swordfish\")\n"
+    },
+    {
+      "start": 141,
+      "end": 153,
+      "type": "plain",
+      "text": "my_instance "
+    },
+    {
+      "start": 153,
+      "end": 154,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 159,
+      "end": 160,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 160,
+      "end": 165,
+      "type": "plain",
+      "text": " fish"
+    },
+    {
+      "start": 165,
+      "end": 166,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 175,
+      "end": 176,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

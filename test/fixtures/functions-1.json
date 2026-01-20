@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-1",
+  "code": "def add(a: Int, b: Int) -> Int:\n    return a+b\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 32,
+      "type": "plain",
+      "text": "def add(a: Int, b: Int) -> Int:\n"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "plain",
+      "text": "a"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "operator",
+      "text": "+"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "plain",
+      "text": "b"
+    }
+  ]
+}

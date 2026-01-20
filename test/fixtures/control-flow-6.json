@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-6",
+  "code": "if temp_celsius > 20:\n    forecast = \"warm\"\nelse:\n    forecast = \"cool\"\nprint(\"The forecast for today is\", forecast)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 22,
+      "type": "plain",
+      "text": "if temp_celsius > 20:\n"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 50,
+      "end": 63,
+      "type": "plain",
+      "text": "    forecast "
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 106,
+      "end": 115,
+      "type": "plain",
+      "text": " forecast"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

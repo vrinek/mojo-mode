@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-2",
+  "code": "def print_list(list: List[Int]):\n    print(list.__str__())\n\ndef main():\n    var values = [1, 2, 3, 4]\n    print_list(values)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "def print_list(list: List[Int]):\n"
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 106,
+      "end": 116,
+      "type": "function",
+      "text": "print_list"
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 123,
+      "end": 124,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

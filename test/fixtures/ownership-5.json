@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-5",
+  "code": "fn append_twice(mut s: String, other: String):\n   # Mojo knows 's' and 'other' cannot be the same string.\n   s += other\n   s += other\n\nfn invalid_access():\n  var my_string = \"o\"  # Create a run-time String value\n\n  # error: passing `my_string` mut is invalid since it is also passed\n  # read.\n  append_twice(my_string, my_string)\n  print(my_string)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 47,
+      "type": "plain",
+      "text": "fn append_twice(mut s: String, other: String):\n"
+    },
+    {
+      "start": 135,
+      "end": 137,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 295,
+      "end": 307,
+      "type": "function",
+      "text": "append_twice"
+    },
+    {
+      "start": 307,
+      "end": 308,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 317,
+      "end": 318,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 328,
+      "end": 329,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 329,
+      "end": 330,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 330,
+      "end": 331,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 337,
+      "end": 338,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 347,
+      "end": 348,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 348,
+      "end": 349,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-22",
+  "code": "pair = MyPair(3, 4)\ncopy = MyPair.__copyinit__(pair)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 20,
+      "type": "plain",
+      "text": "pair = MyPair(3, 4)\n"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 26,
+      "end": 33,
+      "type": "plain",
+      "text": " MyPair"
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

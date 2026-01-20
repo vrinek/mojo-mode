@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-24",
+  "code": "items = [99, 77, 33, 12]\nitem = items[1]  # item is a copy of items[1]\nitem += 1  # increments item\nprint(items[1])  # prints 77\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "items = [99, 77, 33, 12]\n"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 126,
+      "end": 128,
+      "type": "number",
+      "text": "77"
+    }
+  ]
+}

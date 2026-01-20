@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-23",
+  "code": "from python import Python\n\ndef main():\n    # Create a mixed-type Python list\n    py_list = Python.list(42, \"cat\", 3.14159)\n    for py_obj in py_list:  # Each element is of type \"PythonObject\"\n        print(py_obj)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "from python import Python\n"
+    },
+    {
+      "start": 64,
+      "end": 71,
+      "type": "plain",
+      "text": " Python"
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 121,
+      "end": 122,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 192,
+      "end": 196,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 205,
+      "end": 206,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 212,
+      "end": 213,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

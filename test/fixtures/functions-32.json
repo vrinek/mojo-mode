@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-32",
+  "code": "struct ImmovableObject:\n    var name: String\n\n    fn __init__(out self, var name: String):\n        self.name = name^\n\ndef create_immovable_object(var name: String, out obj: ImmovableObject):\n    obj = ImmovableObject(name^)\n    obj.name += \"!\"\n    # obj is implicitly returned\n\ndef main():\n    my_obj = create_immovable_object(\"Blob\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "struct ImmovableObject:\n"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 173,
+      "end": 188,
+      "type": "class-name",
+      "text": "ImmovableObject"
+    },
+    {
+      "start": 189,
+      "end": 190,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 191,
+      "end": 195,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 288,
+      "end": 289,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 289,
+      "end": 290,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 290,
+      "end": 294,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 300,
+      "end": 301,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 326,
+      "end": 327,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 333,
+      "end": 334,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 334,
+      "end": 335,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

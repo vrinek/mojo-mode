@@ -1,0 +1,103 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-21",
+  "code": "@fieldwise_init\nstruct Dog(Copyable, Stringable, Representable, Writable):\n    var name: String\n    var age: Int\n\n    # Allows the type to be written into any `Writer`\n    fn write_to(self, mut writer: Some[Writer]):\n        writer.write(\"Dog(\", self.name, \", \", self.age, \")\")\n\n    # Construct and return a `String` using the previous method\n    fn __str__(self) -> String:\n        return String.write(self)\n\n    # Alternative full representation when calling `repr`\n    fn __repr__(self) -> String:\n        return String(\n            \"Dog(name=\", repr(self.name), \", age=\", repr(self.age), \")\"\n        )\n\ndog = Dog(\"Rex\", 5)\nprint(repr(dog))\nprint(dog)\n\nvar dog_info = \"String: {!s}\\nRepresentation: {!r}\".format(dog, dog)\nprint(dog_info)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 16,
+      "end": 75,
+      "type": "plain",
+      "text": "struct Dog(Copyable, Stringable, Representable, Writable):\n"
+    },
+    {
+      "start": 288,
+      "end": 294,
+      "type": "keyword",
+      "text": "struct"
+    },
+    {
+      "start": 294,
+      "end": 295,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 537,
+      "end": 540,
+      "type": "class-name",
+      "text": "Dog"
+    },
+    {
+      "start": 540,
+      "end": 541,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 547,
+      "end": 548,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 564,
+      "end": 565,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 567,
+      "end": 568,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 589,
+      "end": 590,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 678,
+      "end": 679,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 700,
+      "end": 701,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 724,
+      "end": 725,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 730,
+      "end": 731,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 739,
+      "end": 740,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 740,
+      "end": 741,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

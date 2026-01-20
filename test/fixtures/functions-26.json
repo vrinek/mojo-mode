@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-26",
+  "code": "struct MyString:\n    @implicit\n    fn __init__(out self, string: StringLiteral):\n        pass\n\nfn foo(name: String):\n    print(\"String\")\n\nfn foo(name: MyString):\n    print(\"MyString\")\n\nfn call_foo():\n    comptime string = \"Hello\"\n    # foo(string) # error: ambiguous call to 'foo' ... This call is ambiguous because two `foo` functions match it\n    foo(MyString(string))\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "struct MyString:\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 151,
+      "end": 159,
+      "type": "class-name",
+      "text": "MyString"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 162,
+      "end": 166,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 200,
+      "end": 204,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 212,
+      "end": 213,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 239,
+      "end": 240,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 247,
+      "end": 248,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 255,
+      "end": 256,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 368,
+      "end": 369,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 370,
+      "end": 371,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

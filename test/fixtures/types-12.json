@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-12",
+  "code": "comptime param = \"foo\"        # type = StringLiteral\nvar runtime_value = \"bar\"  # type = String\nvar runtime_value2 = param # type = String\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 53,
+      "type": "plain",
+      "text": "comptime param = \"foo\"        # type = StringLiteral\n"
+    },
+    {
+      "start": 116,
+      "end": 123,
+      "type": "plain",
+      "text": " param "
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

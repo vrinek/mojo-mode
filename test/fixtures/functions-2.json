@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-2",
+  "code": "def add_tensors[rank: Int](a: MyTensor[rank], b: MyTensor[rank]) -> MyTensor[rank]:\n    # ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 84,
+      "type": "plain",
+      "text": "def add_tensors[rank: Int](a: MyTensor[rank], b: MyTensor[rank]) -> MyTensor[rank]:\n"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 88,
+      "end": 93,
+      "type": "comment",
+      "text": "# ..."
+    }
+  ]
+}

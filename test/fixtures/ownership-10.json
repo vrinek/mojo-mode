@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-10",
+  "code": "fn take_text(var text: String):\n    text += \"!\"\n    print(text)\n\nfn main():\n    var message = \"Hello\"  # Create a run-time String value\n    take_text(message^)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 32,
+      "type": "plain",
+      "text": "fn take_text(var text: String):\n"
+    },
+    {
+      "start": 65,
+      "end": 67,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 140,
+      "end": 149,
+      "type": "function",
+      "text": "take_text"
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 159,
+      "end": 160,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

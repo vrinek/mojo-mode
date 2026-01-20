@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "Calling a function",
+  "code": "def process_pair(pair: MyPair):\n    ...\n\nprocess_pair(MyPair(2, 4))\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 32,
+      "type": "plain",
+      "text": "def process_pair(pair: MyPair):\n"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 41,
+      "end": 53,
+      "type": "function",
+      "text": "process_pair"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 65,
+      "end": 66,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

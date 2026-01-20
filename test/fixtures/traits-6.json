@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-6",
+  "code": "fn take_two_quackers[DuckType: Quackable](quacker1: DuckType, quacker2: DuckType):\n    pass\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 83,
+      "type": "plain",
+      "text": "fn take_two_quackers[DuckType: Quackable](quacker1: DuckType, quacker2: DuckType):\n"
+    },
+    {
+      "start": 83,
+      "end": 92,
+      "type": "plain",
+      "text": "    pass\n"
+    }
+  ]
+}

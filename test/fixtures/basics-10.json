@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-10",
+  "code": "var message = \"Hello, World!\" # This is also a valid comment\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 61,
+      "type": "plain",
+      "text": "var message = \"Hello, World!\" # This is also a valid comment\n"
+    }
+  ]
+}

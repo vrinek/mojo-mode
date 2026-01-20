@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-9",
+  "code": "# This is a comment. The Mojo compiler ignores this line.\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 58,
+      "type": "plain",
+      "text": "# This is a comment. The Mojo compiler ignores this line.\n"
+    }
+  ]
+}

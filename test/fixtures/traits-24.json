@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-24",
+  "code": "trait Repeater:\n    comptime count: Int\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "trait Repeater:\n"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "type": "plain",
+      "text": " Int"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-7",
+  "code": "make_it_quack(Duck())\nmake_it_quack(StealthCow())\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 22,
+      "type": "plain",
+      "text": "make_it_quack(Duck())\n"
+    },
+    {
+      "start": 22,
+      "end": 35,
+      "type": "plain",
+      "text": "make_it_quack"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

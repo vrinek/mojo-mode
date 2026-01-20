@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-8",
+  "code": "first = [1, 2, 3]\nsecond = first.copy()  # explicit copy\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "first = [1, 2, 3]\n"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 52,
+      "end": 56,
+      "type": "plain",
+      "text": "copy"
+    }
+  ]
+}

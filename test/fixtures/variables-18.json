@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-18",
+  "code": "owning_variable = \"Owned value\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 32,
+      "type": "plain",
+      "text": "owning_variable = \"Owned value\"\n"
+    }
+  ]
+}

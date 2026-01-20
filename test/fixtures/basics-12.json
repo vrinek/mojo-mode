@@ -1,0 +1,115 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-12",
+  "code": "struct MyPair(Copyable):\n    var first: Int\n    var second: Int\n\n    fn __init__(out self, first: Int, second: Int):\n        self.first = first\n        self.second = second\n\n    fn __copyinit__(out self, existing: Self):\n        self.first = existing.first\n        self.second = existing.second\n\n    def dump(self):\n        print(self.first, self.second)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "struct MyPair(Copyable):\n"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 114,
+      "end": 115,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 137,
+      "end": 143,
+      "type": "plain",
+      "text": " first"
+    },
+    {
+      "start": 212,
+      "end": 213,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 221,
+      "end": 225,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 314,
+      "end": 315,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 315,
+      "end": 316,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 316,
+      "end": 320,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 320,
+      "end": 321,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 329,
+      "end": 330,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 341,
+      "end": 342,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 342,
+      "end": 346,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 353,
+      "end": 354,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 354,
+      "end": 355,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

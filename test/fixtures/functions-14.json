@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-14",
+  "code": "fn make_worldly(mut *strs: String):\n    for i in range(len(strs)):\n        strs[i] += \" world\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 36,
+      "type": "plain",
+      "text": "fn make_worldly(mut *strs: String):\n"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 75,
+      "end": 79,
+      "type": "plain",
+      "text": "strs"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

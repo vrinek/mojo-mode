@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-2",
+  "code": "a = 5\nb: Float64 = 3.14\nc: String\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 6,
+      "type": "plain",
+      "text": "a = 5\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

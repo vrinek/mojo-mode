@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-11",
+  "code": "def add_to_list(var name: String, mut list: List[String]):\n    list.append(name^)\n    # name is uninitialized, nothing to destroy\n\ndef consume_string(var s: String):\n    print(s)\n    # s is destroyed here\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 59,
+      "type": "plain",
+      "text": "def add_to_list(var name: String, mut list: List[String]):\n"
+    },
+    {
+      "start": 131,
+      "end": 134,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 150,
+      "end": 153,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 156,
+      "end": 163,
+      "type": "plain",
+      "text": " String"
+    },
+    {
+      "start": 166,
+      "end": 167,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 167,
+      "end": 168,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 177,
+      "end": 178,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 179,
+      "end": 183,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 204,
+      "end": 205,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

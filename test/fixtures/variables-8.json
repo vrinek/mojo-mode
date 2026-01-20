@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-8",
+  "code": "var user_id: Int = \"Sam\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "var user_id: Int = \"Sam\"\n"
+    }
+  ]
+}

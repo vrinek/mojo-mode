@@ -1,0 +1,115 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-27",
+  "code": "trait Stacklike:\n    comptime EltType: Copyable\n\n    fn push(mut self, var item: Self.EltType):\n        ...\n\n    fn pop(mut self) -> Self.EltType:\n        ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "trait Stacklike:\n"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 49,
+      "end": 53,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 96,
+      "end": 100,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 113,
+      "end": 115,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 120,
+      "end": 123,
+      "type": "keyword",
+      "text": "mut"
+    },
+    {
+      "start": 123,
+      "end": 124,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 124,
+      "end": 128,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 129,
+      "end": 130,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 145,
+      "end": 146,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 156,
+      "end": 157,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

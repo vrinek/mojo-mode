@@ -1,0 +1,121 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-5",
+  "code": "# This function doesn't compile because of the unhandled error\nfn unhandled_error(n: Int):\n    print(n, \"+ 1 =\", incr(n))\n\n# This function compiles because it handles the possible error\nfn handled_error(n: Int):\n    try:\n        print(n, \"+ 1 =\", incr(n))\n    except e:\n        print(\"Handled an error:\", e)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 63,
+      "type": "plain",
+      "text": "# This function doesn't compile because of the unhandled error\n"
+    },
+    {
+      "start": 63,
+      "end": 91,
+      "type": "plain",
+      "text": "fn unhandled_error(n: Int):\n"
+    },
+    {
+      "start": 186,
+      "end": 188,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 202,
+      "end": 203,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 203,
+      "end": 204,
+      "type": "plain",
+      "text": "n"
+    },
+    {
+      "start": 204,
+      "end": 205,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 205,
+      "end": 209,
+      "type": "plain",
+      "text": " Int"
+    },
+    {
+      "start": 209,
+      "end": 210,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 210,
+      "end": 211,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 225,
+      "end": 256,
+      "type": "plain",
+      "text": "    print(n, \"+ 1 =\", incr(n))\n"
+    },
+    {
+      "start": 256,
+      "end": 260,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 278,
+      "end": 283,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 283,
+      "end": 284,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 287,
+      "end": 288,
+      "type": "plain",
+      "text": "n"
+    },
+    {
+      "start": 303,
+      "end": 304,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 304,
+      "end": 305,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 306,
+      "end": 307,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 307,
+      "end": 308,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

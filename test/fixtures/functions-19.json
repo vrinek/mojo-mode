@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-19",
+  "code": "fn takes_dict(d: Dict[String, Int]):\n  print_nicely(**d)  # Not supported yet.\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 37,
+      "type": "plain",
+      "text": "fn takes_dict(d: Dict[String, Int]):\n"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "type": "plain",
+      "text": "d"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "plain",
+      "text": "d"
+    }
+  ]
+}

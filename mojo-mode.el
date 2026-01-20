@@ -30,7 +30,7 @@
 
 (defvar mojo-font-lock-keywords
   `((,(regexp-opt '("def" "fn" "struct" "trait" "alias"
-                    "var"
+                    "var" "let" "ref" "mut"
                     "if" "elif" "else" "for" "while"
                     "break" "continue" "return" "pass"
                     "raise" "try" "except" "finally"
@@ -38,7 +38,8 @@
                     "import" "from"
                     "and" "or" "not" "in" "is"
                     "lambda" "yield" "async" "await"
-                    "raises" "owned" "borrowed" "inout" "read")
+                    "raises" "owned" "borrowed" "inout" "read"
+                    "comptime")
                   'symbols)
      . font-lock-keyword-face)
     (,(regexp-opt '("Int" "UInt" "Int8" "Int16" "Int32" "Int64"
@@ -58,10 +59,12 @@
                     "sorted" "reversed" "enumerate" "zip" "map" "filter"
                     "any" "all" "isinstance" "type" "id" "hash"
                     "dir" "vars" "getattr" "setattr" "hasattr" "delattr"
-                    "open" "slice" "object"
-                    "__mlir_type" "__mlir_op" "__mlir_attr")
+                    "open" "slice" "object" "list")
                   'symbols)
      . font-lock-builtin-face)
+    ;; Numbers: integers and floats
+    ("\\<[0-9]+\\(?:\\.[0-9]+\\)?\\(?:[eE][+-]?[0-9]+\\)?\\>"
+     . font-lock-constant-face)
     ("\\<\\(def\\|fn\\)\\>[ \t]+\\([a-zA-Z_][a-zA-Z0-9_]*\\)"
      (2 font-lock-function-name-face))
     ("^[ \t]*\\(@[a-zA-Z_][a-zA-Z0-9_]*\\)"

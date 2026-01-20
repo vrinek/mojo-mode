@@ -34,7 +34,50 @@ PAGES = [
         "url": "https://docs.modular.com/mojo/manual/get-started",
         "name": "get-started",
     },
-    # Add more pages here as needed
+    {
+        "url": "https://docs.modular.com/mojo/manual/basics",
+        "name": "basics",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/functions",
+        "name": "functions",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/variables",
+        "name": "variables",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/types",
+        "name": "types",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/control-flow",
+        "name": "control-flow",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/structs",
+        "name": "structs",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/traits",
+        "name": "traits",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/lifecycle/life",
+        "name": "lifecycle-life",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/values/ownership",
+        "name": "ownership",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/errors",
+        "name": "errors",
+    },
+    {
+        "url": "https://docs.modular.com/mojo/manual/decorators",
+        "name": "decorators",
+    },
 ]
 
 

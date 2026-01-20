@@ -1,0 +1,121 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-17",
+  "code": "@fieldwise_init\nstruct MyPair:\n    var first: Int\n    var second: Int\n\n    fn get_sum(self) -> Int:\n        return self.first + self.second\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 16,
+      "end": 31,
+      "type": "plain",
+      "text": "struct MyPair:\n"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 65,
+      "end": 69,
+      "type": "plain",
+      "text": " Int"
+    },
+    {
+      "start": 71,
+      "end": 75,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 100,
+      "end": 104,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 115,
+      "end": 119,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 128,
+      "end": 132,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 132,
+      "end": 133,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 133,
+      "end": 139,
+      "type": "plain",
+      "text": "second"
+    }
+  ]
+}

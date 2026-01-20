@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-9",
+  "code": "# Obtain a file handle to read from storage\nf = open(input_file, \"r\")\ncontent = f.read()\n# Process the content as needed\n# Close the file handle\nf.close()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 44,
+      "type": "plain",
+      "text": "# Obtain a file handle to read from storage\n"
+    },
+    {
+      "start": 44,
+      "end": 70,
+      "type": "plain",
+      "text": "f = open(input_file, \"r\")\n"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 153,
+      "end": 154,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

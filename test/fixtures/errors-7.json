@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-7",
+  "code": "try:\n    # Code block to execute that might raise an error\nexcept <optional_variable_name>:\n    # Code block to execute if an error occurs\nelse:\n    # Code block to execute if no error occurs\nfinally:\n    # Final code block to execute in all circumstances\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 5,
+      "type": "plain",
+      "text": "try:\n"
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 92,
+      "end": 96,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 145,
+      "end": 149,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 199,
+      "end": 200,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 201,
+      "end": 205,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 205,
+      "end": 255,
+      "type": "comment",
+      "text": "# Final code block to execute in all circumstances"
+    }
+  ]
+}

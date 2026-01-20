@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-6",
+  "code": "def incr(n: Int) -> Int:\n    if n == Int.MAX:\n        raise \"inc: integer overflow\"\n    else:\n        return n + 1\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "def incr(n: Int) -> Int:\n"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "plain",
+      "text": "n"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 84,
+      "end": 88,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 108,
+      "end": 111,
+      "type": "plain",
+      "text": " n "
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 113,
+      "end": 114,
+      "type": "number",
+      "text": "1"
+    }
+  ]
+}

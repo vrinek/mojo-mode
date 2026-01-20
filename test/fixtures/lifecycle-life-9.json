@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-9",
+  "code": "var b = Target(a)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "var b = Target(a)\n"
+    }
+  ]
+}

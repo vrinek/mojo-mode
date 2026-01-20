@@ -1,0 +1,85 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-10",
+  "code": "fn sum(*values: Int) -> Int:\n  var sum: Int = 0\n  for value in values:\n    sum = sum + value\n  return sum\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 29,
+      "type": "plain",
+      "text": "fn sum(*values: Int) -> Int:\n"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "type": "function",
+      "text": "sum"
+    },
+    {
+      "start": 63,
+      "end": 69,
+      "type": "plain",
+      "text": "values"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 72,
+      "end": 74,
+      "type": "plain",
+      "text": "  "
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 75,
+      "end": 78,
+      "type": "builtin",
+      "text": "sum"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 93,
+      "end": 95,
+      "type": "plain",
+      "text": "  "
+    },
+    {
+      "start": 102,
+      "end": 105,
+      "type": "builtin",
+      "text": "sum"
+    }
+  ]
+}

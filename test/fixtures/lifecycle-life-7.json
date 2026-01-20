@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-7",
+  "code": "var a = Source()\nvar b: Target = a\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "var a = Source()\n"
+    },
+    {
+      "start": 17,
+      "end": 20,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 32,
+      "end": 34,
+      "type": "plain",
+      "text": " a"
+    }
+  ]
+}

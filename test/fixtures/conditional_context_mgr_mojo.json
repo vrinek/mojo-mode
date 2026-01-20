@@ -1,0 +1,187 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "conditional_context_mgr.mojo",
+  "code": "import time\n\n@fieldwise_init\nstruct ConditionalTimer(ImplicitlyCopyable):\n    var start_time: Int\n\n    fn __init__(out self):\n        self.start_time = 0\n\n    fn __enter__(mut self) -> Self:\n        self.start_time = Int(time.perf_counter_ns())\n        return self\n\n    fn __exit__(mut self):\n        end_time = time.perf_counter_ns()\n        elapsed_time_ms = round(\n            Float64(end_time - UInt(self.start_time)) / 1e6, 3\n        )\n        print(\"Elapsed time:\", elapsed_time_ms, \"milliseconds\")\n\n    fn __exit__(mut self, e: Error) raises -> Bool:\n        if String(e) == \"just a warning\":\n            print(\"Suppressing error:\", e)\n            self.__exit__()\n            return True\n        else:\n            print(\"Propagating error\")\n            self.__exit__()\n            return False\n\ndef flaky_identity(n: Int) -> Int:\n    if (n % 4) == 0:\n        raise \"really bad\"\n    elif (n % 2) == 0:\n        raise \"just a warning\"\n    else:\n        return n\n\ndef main():\n    for i in range(1, 9):\n        with ConditionalTimer():\n            print(\"\\nBeginning execution\")\n\n            print(\"i =\", i)\n            time.sleep(0.1)\n\n            if i == 3:\n                print(\"continue executed\")\n                continue\n\n            j = flaky_identity(i)\n            print(\"j =\", j)\n\n            print(\"Ending execution\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 12,
+      "type": "plain",
+      "text": "import time\n"
+    },
+    {
+      "start": 311,
+      "end": 316,
+      "type": "plain",
+      "text": " time"
+    },
+    {
+      "start": 334,
+      "end": 335,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 335,
+      "end": 336,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1018,
+      "end": 1034,
+      "type": "class-name",
+      "text": "ConditionalTimer"
+    },
+    {
+      "start": 1034,
+      "end": 1035,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 1035,
+      "end": 1036,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 1036,
+      "end": 1037,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 1038,
+      "end": 1042,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1160,
+      "end": 1161,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 1161,
+      "end": 1162,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 1162,
+      "end": 1166,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1166,
+      "end": 1167,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1183,
+      "end": 1184,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 1193,
+      "end": 1194,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1203,
+      "end": 1204,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 1205,
+      "end": 1213,
+      "type": "plain",
+      "text": "        "
+    },
+    {
+      "start": 1245,
+      "end": 1246,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 1246,
+      "end": 1247,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1264,
+      "end": 1265,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 1265,
+      "end": 1269,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1269,
+      "end": 1270,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1282,
+      "end": 1283,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 1285,
+      "end": 1286,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1291,
+      "end": 1292,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 1294,
+      "end": 1295,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1295,
+      "end": 1303,
+      "type": "plain",
+      "text": "        "
+    },
+    {
+      "start": 1311,
+      "end": 1312,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 1330,
+      "end": 1331,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 1331,
+      "end": 1332,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

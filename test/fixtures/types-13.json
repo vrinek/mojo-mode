@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-13",
+  "code": "var conditionA = False\nvar conditionB: Bool\nconditionB = not conditionA\nprint(conditionA, conditionB)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 23,
+      "type": "plain",
+      "text": "var conditionA = False\n"
+    },
+    {
+      "start": 23,
+      "end": 26,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 56,
+      "end": 57,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 89,
+      "end": 100,
+      "type": "plain",
+      "text": " conditionB"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

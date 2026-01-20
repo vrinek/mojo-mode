@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-6",
+  "code": "def myfunc(pos_only, /, pos_or_keyword, *, keyword_only):\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 58,
+      "type": "plain",
+      "text": "def myfunc(pos_only, /, pos_or_keyword, *, keyword_only):\n"
+    }
+  ]
+}

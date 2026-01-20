@@ -1,0 +1,139 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-16",
+  "code": "def lexical_scopes():\n    var num = 1\n    var dig = 1\n    if num == 1:\n        print(\"num:\", num)  # Reads the outer-scope \"num\"\n        var num = 2         # Creates new inner-scope \"num\"\n        print(\"num:\", num)  # Reads the inner-scope \"num\"\n        dig = 2             # Updates the outer-scope \"dig\"\n    print(\"num:\", num)      # Reads the outer-scope \"num\"\n    print(\"dig:\", dig)      # Reads the outer-scope \"dig\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 22,
+      "type": "plain",
+      "text": "def lexical_scopes():\n"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 207,
+      "end": 208,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 247,
+      "end": 251,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 259,
+      "end": 260,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 260,
+      "end": 261,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 262,
+      "end": 266,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 266,
+      "end": 267,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 267,
+      "end": 271,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 271,
+      "end": 272,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 321,
+      "end": 322,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 369,
+      "end": 374,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 374,
+      "end": 375,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 381,
+      "end": 382,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 386,
+      "end": 387,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 387,
+      "end": 389,
+      "type": "plain",
+      "text": "  "
+    },
+    {
+      "start": 389,
+      "end": 390,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 390,
+      "end": 392,
+      "type": "plain",
+      "text": "  "
+    },
+    {
+      "start": 392,
+      "end": 393,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 393,
+      "end": 422,
+      "type": "comment",
+      "text": "# Reads the outer-scope \"dig\""
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-11",
+  "code": "trait Flyable:\n    fn fly(self): ...\n\nfn quack_and_go[type: Quackable & Flyable](quacker: type):\n    quacker.quack()\n    quacker.fly()\n\n@fieldwise_init\nstruct FlyingDuck(Copyable, Quackable, Flyable):\n    fn quack(self):\n        print(\"Quack\")\n\n    fn fly(self):\n        print(\"Whoosh!\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 15,
+      "type": "plain",
+      "text": "trait Flyable:\n"
+    },
+    {
+      "start": 71,
+      "end": 79,
+      "type": "plain",
+      "text": " Flyable"
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 97,
+      "end": 101,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 205,
+      "end": 207,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 207,
+      "end": 208,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 252,
+      "end": 255,
+      "type": "function",
+      "text": "fly"
+    },
+    {
+      "start": 255,
+      "end": 256,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 256,
+      "end": 260,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 260,
+      "end": 261,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 261,
+      "end": 262,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 263,
+      "end": 264,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 287,
+      "end": 288,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

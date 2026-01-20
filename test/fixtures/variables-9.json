@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-9",
+  "code": "var name: String = get_name()\n# Or\nname: String = get_name()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "var name: String = get_name()\n"
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "type": "plain",
+      "text": " String "
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 49,
+      "end": 58,
+      "type": "plain",
+      "text": " get_name"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

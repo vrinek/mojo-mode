@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-3",
+  "code": "var mine = MyPet(\"Loki\", 4)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 28,
+      "type": "plain",
+      "text": "var mine = MyPet(\"Loki\", 4)\n"
+    }
+  ]
+}

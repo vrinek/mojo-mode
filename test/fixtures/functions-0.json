@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-0",
+  "code": "def do_nothing():\n    pass\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "def do_nothing():\n"
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "type": "keyword",
+      "text": "pass"
+    }
+  ]
+}

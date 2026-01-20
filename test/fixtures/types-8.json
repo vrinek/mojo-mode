@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-8",
+  "code": "var my_int: Int16 = 12                 # SIMD[DType.int16, 1]\nvar my_float: Float32 = 0.75           # SIMD[DType.float32, 1]\nresult = Float32(my_int) * my_float    # Result is SIMD[DType.float32, 1]\nprint(\"Result:\", result)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 62,
+      "type": "plain",
+      "text": "var my_int: Int16 = 12                 # SIMD[DType.int16, 1]\n"
+    },
+    {
+      "start": 62,
+      "end": 65,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 152,
+      "end": 161,
+      "type": "plain",
+      "text": " my_float"
+    },
+    {
+      "start": 213,
+      "end": 214,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 216,
+      "end": 217,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 223,
+      "end": 224,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

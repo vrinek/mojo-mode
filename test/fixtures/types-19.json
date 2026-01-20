@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-19",
+  "code": "var list = [2, 3, 5]\nlist.append(7)\nlist.append(11)\nprint(\"Popping last item from list: \", list.pop())\nfor idx in range(len(list)):\n      print(list[idx], end=\", \")\n\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "var list = [2, 3, 5]\n"
+    },
+    {
+      "start": 66,
+      "end": 67,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 82,
+      "end": 86,
+      "type": "builtin",
+      "text": "list"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 161,
+      "end": 162,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 163,
+      "end": 164,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 164,
+      "end": 165,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

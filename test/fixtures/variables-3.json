@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-3",
+  "code": "count = 8 # count is type Int\ncount = \"Nine?\" # Error: can't implicitly convert 'StringLiteral' to 'Int'\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "count = 8 # count is type Int\n"
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "type": "plain",
+      "text": "count "
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

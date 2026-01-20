@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-23",
+  "code": "animals: List[String] = [\"Cats\", \"Dogs\", \"Zebras\"]\nprint(animals[2])  # Prints \"Zebras\", does not copy the value.\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 51,
+      "type": "plain",
+      "text": "animals: List[String] = [\"Cats\", \"Dogs\", \"Zebras\"]\n"
+    },
+    {
+      "start": 57,
+      "end": 64,
+      "type": "plain",
+      "text": "animals"
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 66,
+      "end": 67,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

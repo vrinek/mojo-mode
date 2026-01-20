@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-17",
+  "code": "comptime NamedAnimal = Animal & Named\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 38,
+      "type": "plain",
+      "text": "comptime NamedAnimal = Animal & Named\n"
+    }
+  ]
+}

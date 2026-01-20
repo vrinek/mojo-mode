@@ -1,0 +1,85 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-19",
+  "code": "struct Logger:\n\n    fn __init__(out self):\n        pass\n\n    @staticmethod\n    fn log_info(message: String):\n        print(\"Info: \", message)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 15,
+      "type": "plain",
+      "text": "struct Logger:\n"
+    },
+    {
+      "start": 16,
+      "end": 17,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 43,
+      "end": 47,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 79,
+      "end": 81,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 109,
+      "end": 117,
+      "type": "plain",
+      "text": "        "
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

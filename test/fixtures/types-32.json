@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-32",
+  "code": "var custom_greeting: Optional[String] = None\nprint(custom_greeting.or_else(\"Hello\"))\n\ncustom_greeting = \"Hi\"\nprint(custom_greeting.or_else(\"Hello\"))\n\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 45,
+      "type": "plain",
+      "text": "var custom_greeting: Optional[String] = None\n"
+    },
+    {
+      "start": 101,
+      "end": 102,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 103,
+      "end": 104,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 109,
+      "end": 149,
+      "type": "plain",
+      "text": "print(custom_greeting.or_else(\"Hello\"))\n"
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

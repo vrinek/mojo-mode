@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-1",
+  "code": "fn add(mut x: Int, read y: Int):\n    x += y\n\nfn main():\n    var a = 1\n    var b = 2\n    add(a, b)\n    print(a)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "fn add(mut x: Int, read y: Int):\n"
+    },
+    {
+      "start": 45,
+      "end": 47,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 88,
+      "end": 91,
+      "type": "function",
+      "text": "add"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 94,
+      "end": 95,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 109,
+      "end": 110,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

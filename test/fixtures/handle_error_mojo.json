@@ -1,0 +1,91 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "handle_error.mojo",
+  "code": "def incr(n: Int) -> Int:\n    if n == Int.MAX:\n        raise \"inc: integer overflow\"\n    else:\n        return n + 1\n\ndef main():\n    for value in [0, 1, Int.MAX]:\n        try:\n            print()\n            print(\"try     =>\", value)\n            if value == 1:\n                continue\n            result = \"{} incremented is {}\".format(value, incr(value))\n        except e:\n            print(\"except  =>\", e)\n        else:\n            print(\"else    =>\", result)\n        finally:\n            print(\"finally => ====================\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "def incr(n: Int) -> Int:\n"
+    },
+    {
+      "start": 116,
+      "end": 119,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 311,
+      "end": 315,
+      "type": "function",
+      "text": "incr"
+    },
+    {
+      "start": 336,
+      "end": 337,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 345,
+      "end": 346,
+      "type": "plain",
+      "text": "n"
+    },
+    {
+      "start": 373,
+      "end": 374,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 408,
+      "end": 409,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 410,
+      "end": 411,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 452,
+      "end": 453,
+      "type": "operator",
+      "text": ">"
+    },
+    {
+      "start": 479,
+      "end": 480,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 481,
+      "end": 485,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 511,
+      "end": 513,
+      "type": "operator",
+      "text": "=="
+    },
+    {
+      "start": 533,
+      "end": 534,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

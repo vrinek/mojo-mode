@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-6",
+  "code": "name: String = \"Sam\"\nuser_id: Int\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "name: String = \"Sam\"\n"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

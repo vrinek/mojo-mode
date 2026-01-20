@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-5",
+  "code": "def loop():\n    for x in range(5):\n        if x % 2 == 0:\n            print(x)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 12,
+      "type": "plain",
+      "text": "def loop():\n"
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "type": "plain",
+      "text": " x "
+    },
+    {
+      "start": 72,
+      "end": 74,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

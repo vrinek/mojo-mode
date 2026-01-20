@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-9",
+  "code": "fn my_pow(base: Int, exp: Int = 2) -> Int:\n    return base ** exp\n\nfn use_keywords():\n    # Uses keyword argument names (with order reversed)\n    var z = my_pow(exp=3, base=2)\n    print(z)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 43,
+      "type": "plain",
+      "text": "fn my_pow(base: Int, exp: Int = 2) -> Int:\n"
+    },
+    {
+      "start": 67,
+      "end": 69,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 154,
+      "end": 160,
+      "type": "function",
+      "text": "my_pow"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 168,
+      "end": 172,
+      "type": "plain",
+      "text": "base"
+    },
+    {
+      "start": 172,
+      "end": 173,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 176,
+      "end": 177,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 187,
+      "end": 188,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

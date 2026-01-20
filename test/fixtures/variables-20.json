@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-20",
+  "code": "second = first.copy()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 22,
+      "type": "plain",
+      "text": "second = first.copy()\n"
+    }
+  ]
+}

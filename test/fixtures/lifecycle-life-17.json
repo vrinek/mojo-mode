@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-17",
+  "code": "var mine = MyPet(\"Loki\", 4)\nvar yours = mine.copy()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 28,
+      "type": "plain",
+      "text": "var mine = MyPet(\"Loki\", 4)\n"
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-28",
+  "code": "var d: Dict[String, Float64] = {\n    \"plasticity\": 3.1,\n    \"elasticity\": 1.3,\n    \"electricity\": 9.7\n}\nfor item in d.items():\n    print(item.key, item.value)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "var d: Dict[String, Float64] = {\n"
+    },
+    {
+      "start": 115,
+      "end": 117,
+      "type": "plain",
+      "text": " d"
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 145,
+      "end": 146,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 146,
+      "end": 147,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "Construct an instance",
+  "code": "var mine = MyPair(2, 4)\nprint(mine.first)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "var mine = MyPair(2, 4)\n"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

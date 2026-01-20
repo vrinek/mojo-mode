@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-24",
+  "code": "fn moves():\n    var a = MyPet(\"Bobo\", 2)\n\n    print(a.name) # Prints \"bobo\"\n\n    var b = a^ # the lifetime of `a` ends here\n\n    print(b.name) # prints \"bobo\"\n    # print(a.name)  # ERROR: use of uninitialized value 'a'\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 12,
+      "type": "plain",
+      "text": "fn moves():\n"
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 187,
+      "end": 188,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 219,
+      "end": 220,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

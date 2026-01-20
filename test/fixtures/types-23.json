@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-23",
+  "code": "# Does not work\nprint(list)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "# Does not work\n"
+    },
+    {
+      "start": 16,
+      "end": 28,
+      "type": "plain",
+      "text": "print(list)\n"
+    }
+  ]
+}

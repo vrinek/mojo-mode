@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-18",
+  "code": "var l = List[String]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 23,
+      "type": "plain",
+      "text": "var l = List[String]()\n"
+    }
+  ]
+}

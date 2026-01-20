@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-12",
+  "code": "comptime DuckLike = Quackable & Flyable\n\nstruct ToyDuck(DuckLike):\n    # ... implementation omitted\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 40,
+      "type": "plain",
+      "text": "comptime DuckLike = Quackable & Flyable\n"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 41,
+      "end": 67,
+      "type": "plain",
+      "text": "struct ToyDuck(DuckLike):\n"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 71,
+      "end": 99,
+      "type": "comment",
+      "text": "# ... implementation omitted"
+    }
+  ]
+}

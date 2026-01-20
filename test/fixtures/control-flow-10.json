@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-10",
+  "code": "n = 5\n\nwhile n < 4:\n    print(n)\n    n += 1\nelse:\n    print(\"Loop completed\")\n\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 6,
+      "type": "plain",
+      "text": "n = 5\n"
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "type": "plain",
+      "text": "n "
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 54,
+      "end": 59,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

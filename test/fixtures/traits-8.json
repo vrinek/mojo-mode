@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-8",
+  "code": "trait HasStaticMethod:\n    @staticmethod\n    fn do_stuff(): ...\n\nfn fun_with_traits[type: HasStaticMethod]():\n    type.do_stuff()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 23,
+      "type": "plain",
+      "text": "trait HasStaticMethod:\n"
+    },
+    {
+      "start": 77,
+      "end": 82,
+      "type": "keyword",
+      "text": "trait"
+    },
+    {
+      "start": 89,
+      "end": 105,
+      "type": "plain",
+      "text": " HasStaticMethod"
+    },
+    {
+      "start": 108,
+      "end": 109,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 110,
+      "end": 114,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 119,
+      "end": 127,
+      "type": "function",
+      "text": "do_stuff"
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 129,
+      "end": 130,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

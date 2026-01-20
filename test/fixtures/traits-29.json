@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-29",
+  "code": "def add_to_stack[S: Stacklike](mut stack: S, var item: S.EltType):\n    stack.push(item^)\n\ndef main():\n    s = MyStack[Int]()\n    add_to_stack(s, 12)\n    add_to_stack(s, 33)\n    s.dump()             # [12, 33, ]\n    print(s.pop())       # 33\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 67,
+      "type": "plain",
+      "text": "def add_to_stack[S: Stacklike](mut stack: S, var item: S.EltType):\n"
+    },
+    {
+      "start": 90,
+      "end": 93,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 128,
+      "end": 141,
+      "type": "plain",
+      "text": " add_to_stack"
+    },
+    {
+      "start": 200,
+      "end": 201,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 209,
+      "end": 210,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 220,
+      "end": 221,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 229,
+      "end": 230,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 240,
+      "end": 241,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

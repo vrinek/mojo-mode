@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-12",
+  "code": "struct MyStruct:\n    value: Int # Error. Missing `var` keyword\n    var count: Int # Yes\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "struct MyStruct:\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 77,
+      "end": 82,
+      "type": "plain",
+      "text": " Int "
+    },
+    {
+      "start": 82,
+      "end": 87,
+      "type": "comment",
+      "text": "# Yes"
+    }
+  ]
+}

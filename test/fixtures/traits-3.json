@@ -1,0 +1,103 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-3",
+  "code": "@fieldwise_init\nstruct Duck(Copyable, Quackable):\n    fn quack(self):\n        print(\"Quack\")\n\n@fieldwise_init\nstruct StealthCow(Copyable, Quackable):\n    fn quack(self):\n        print(\"Moo!\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 94,
+      "end": 109,
+      "type": "punctuation",
+      "text": "@fieldwise_init"
+    },
+    {
+      "start": 110,
+      "end": 116,
+      "type": "keyword",
+      "text": "struct"
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 128,
+      "end": 136,
+      "type": "plain",
+      "text": "Copyable"
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 137,
+      "end": 147,
+      "type": "plain",
+      "text": " Quackable"
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 150,
+      "end": 170,
+      "type": "plain",
+      "text": "    fn quack(self):\n"
+    },
+    {
+      "start": 170,
+      "end": 174,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 174,
+      "end": 175,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 183,
+      "end": 184,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 190,
+      "end": 191,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 191,
+      "end": 192,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

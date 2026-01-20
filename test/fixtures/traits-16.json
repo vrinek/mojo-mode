@@ -1,0 +1,97 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-16",
+  "code": "trait Named:\n    fn get_name(self) -> String:\n        ...\n\ntrait NamedAnimal(Animal, Named):\n    fn emit_name_and_sound(self):\n        ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 13,
+      "type": "plain",
+      "text": "trait Named:\n"
+    },
+    {
+      "start": 59,
+      "end": 64,
+      "type": "keyword",
+      "text": "trait"
+    },
+    {
+      "start": 64,
+      "end": 70,
+      "type": "plain",
+      "text": " Named"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 93,
+      "end": 97,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 97,
+      "end": 99,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 120,
+      "end": 124,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 135,
+      "end": 136,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 138,
+      "end": 139,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

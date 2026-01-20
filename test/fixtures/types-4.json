@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-4",
+  "code": "comptime Scalar = SIMD[size=1]\ncomptime Int8 = Scalar[DType.int8]\ncomptime Float32 = Scalar[DType.float32]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 31,
+      "type": "plain",
+      "text": "comptime Scalar = SIMD[size=1]\n"
+    },
+    {
+      "start": 31,
+      "end": 39,
+      "type": "keyword",
+      "text": "comptime"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "type": "punctuation",
+      "text": "]"
+    }
+  ]
+}

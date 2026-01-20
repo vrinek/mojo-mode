@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-26",
+  "code": "ref item_ref = items[2]  # error: invalid redefinition of item_ref\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 67,
+      "type": "plain",
+      "text": "ref item_ref = items[2]  # error: invalid redefinition of item_ref\n"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-18",
+  "code": "my_list = List[Float64]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "my_list = List[Float64]()\n"
+    }
+  ]
+}

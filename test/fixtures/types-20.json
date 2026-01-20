@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-20",
+  "code": "# List literal, element type infers to Int.\nvar nums = [2, 3, 5]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 44,
+      "type": "plain",
+      "text": "# List literal, element type infers to Int.\n"
+    },
+    {
+      "start": 44,
+      "end": 65,
+      "type": "plain",
+      "text": "var nums = [2, 3, 5]\n"
+    }
+  ]
+}

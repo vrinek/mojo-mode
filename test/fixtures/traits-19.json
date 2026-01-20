@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-19",
+  "code": "struct MyList(Copyable, Sized):\n    var size: Int\n    # ...\n\n    fn __init__(out self):\n        self.size = 0\n\n    fn __len__(self) -> Int:\n        return self.size\n\nprint(len(MyList()))\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 32,
+      "type": "plain",
+      "text": "struct MyList(Copyable, Sized):\n"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 176,
+      "end": 182,
+      "type": "class-name",
+      "text": "MyList"
+    },
+    {
+      "start": 182,
+      "end": 183,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 183,
+      "end": 184,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 186,
+      "end": 187,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-16",
+  "code": "var values = [1, 4, 7, 3, 6, 11]\nfor ref value in values:\n    if value % 2 != 0:\n        value -= 1\nprint(values.__str__())\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "var values = [1, 4, 7, 3, 6, 11]\n"
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "number",
+      "text": "1"
+    },
+    {
+      "start": 102,
+      "end": 104,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 106,
+      "end": 112,
+      "type": "plain",
+      "text": "values"
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 113,
+      "end": 120,
+      "type": "plain",
+      "text": "__str__"
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 121,
+      "end": 122,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

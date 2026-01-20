@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-18",
+  "code": "for i in range(5):\n    if i == 3:\n        continue\n    print(i, end=\", \")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "for i in range(5):\n"
+    },
+    {
+      "start": 25,
+      "end": 28,
+      "type": "plain",
+      "text": " i "
+    },
+    {
+      "start": 46,
+      "end": 48,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

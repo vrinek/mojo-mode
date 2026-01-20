@@ -1,0 +1,127 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "context_mgr.mojo",
+  "code": "import sys\nimport time\n\n@fieldwise_init\nstruct Timer(ImplicitlyCopyable):\n    var start_time: Int\n\n    fn __init__(out self):\n        self.start_time = 0\n\n    fn __enter__(mut self) -> Self:\n        self.start_time = Int(time.perf_counter_ns())\n        return self\n\n    fn __exit__(mut self):\n        end_time = time.perf_counter_ns()\n        elapsed_time_ms = round(\n            Float64(end_time - UInt(self.start_time)) / 1e6, 3\n        )\n        print(\"Elapsed time:\", elapsed_time_ms, \"milliseconds\")\n\ndef main():\n    with Timer():\n        print(\"Beginning execution\")\n        time.sleep(1.0)\n        if len(sys.argv()) > 1:\n            raise \"simulated error\"\n        time.sleep(1.0)\n        print(\"Ending execution\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 11,
+      "type": "plain",
+      "text": "import sys\n"
+    },
+    {
+      "start": 11,
+      "end": 17,
+      "type": "keyword",
+      "text": "import"
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "type": "plain",
+      "text": " time"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 24,
+      "end": 40,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 40,
+      "end": 74,
+      "type": "plain",
+      "text": "struct Timer(ImplicitlyCopyable):\n"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 527,
+      "end": 532,
+      "type": "class-name",
+      "text": "Timer"
+    },
+    {
+      "start": 532,
+      "end": 533,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 533,
+      "end": 534,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 534,
+      "end": 535,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 536,
+      "end": 540,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 627,
+      "end": 628,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 628,
+      "end": 629,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 629,
+      "end": 633,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 633,
+      "end": 634,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 683,
+      "end": 684,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 689,
+      "end": 690,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 721,
+      "end": 722,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 722,
+      "end": 723,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

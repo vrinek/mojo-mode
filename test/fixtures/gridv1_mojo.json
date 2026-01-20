@@ -1,0 +1,121 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "gridv1.mojo",
+  "code": "...\nstruct Grid(Copyable, Stringable):\n    ...\n    fn evolve(self) -> Self:\n        next_generation = List[List[Int]]()\n\n        for row in range(self.rows):\n            row_data = List[Int]()\n\n            # Calculate neighboring row indices, handling \"wrap-around\"\n            row_above = (row - 1) % self.rows\n            row_below = (row + 1) % self.rows\n\n            for col in range(self.cols):\n                # Calculate neighboring column indices, handling \"wrap-around\"\n                col_left = (col - 1) % self.cols\n                col_right = (col + 1) % self.cols\n\n                # Determine number of populated cells around the current cell\n                num_neighbors = (\n                    self[row_above, col_left]\n                    + self[row_above, col]\n                    + self[row_above, col_right]\n                    + self[row, col_left]\n                    + self[row, col_right]\n                    + self[row_below, col_left]\n                    + self[row_below, col]\n                    + self[row_below, col_right]\n                )\n\n                # Determine the state of the current cell for the next generation\n                new_state = 0\n                if self[row, col] == 1 and (\n                    num_neighbors == 2 or num_neighbors == 3\n                ):\n                    new_state = 1\n                elif self[row, col] == 0 and num_neighbors == 3:\n                    new_state = 1\n                row_data.append(new_state)\n\n            next_generation.append(row_data^)\n\n        return Self(self.rows, self.cols, next_generation^)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 4,
+      "type": "plain",
+      "text": "...\n"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 241,
+      "end": 242,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 298,
+      "end": 299,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 398,
+      "end": 399,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 400,
+      "end": 404,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 522,
+      "end": 523,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 572,
+      "end": 573,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 1467,
+      "end": 1468,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 1487,
+      "end": 1491,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1491,
+      "end": 1492,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 1521,
+      "end": 1522,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 1554,
+      "end": 1558,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 1592,
+      "end": 1593,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 1593,
+      "end": 1594,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

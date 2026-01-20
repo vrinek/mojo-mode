@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-0",
+  "code": "var greeting: String = \"Hello World\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 37,
+      "type": "plain",
+      "text": "var greeting: String = \"Hello World\"\n"
+    }
+  ]
+}

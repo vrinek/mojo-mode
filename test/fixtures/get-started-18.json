@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-18",
+  "code": "    start = Grid(8, 8, glider.copy())\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 38,
+      "type": "plain",
+      "text": "    start = Grid(8, 8, glider.copy())\n"
+    }
+  ]
+}

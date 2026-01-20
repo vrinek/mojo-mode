@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-17",
+  "code": "fn fun_with_traits[T: SomeTrait](x: T):\n    x.required_method(42)\n\nfn use_trait_function():\n    var thing = SomeStruct()\n    fun_with_traits(thing)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 40,
+      "type": "plain",
+      "text": "fn fun_with_traits[T: SomeTrait](x: T):\n"
+    },
+    {
+      "start": 67,
+      "end": 69,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 124,
+      "end": 140,
+      "type": "plain",
+      "text": " fun_with_traits"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 146,
+      "end": 147,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

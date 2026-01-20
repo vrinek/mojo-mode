@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-3",
+  "code": "# positional\nx = add(5, 7)      # Positionally, a=5 and b=7\n# keyword\ny = add(b=3, a=9)\n# mixed\nz = add(5, b=7)    # Positionally, a=5\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 13,
+      "type": "plain",
+      "text": "# positional\n"
+    },
+    {
+      "start": 13,
+      "end": 60,
+      "type": "plain",
+      "text": "x = add(5, 7)      # Positionally, a=5 and b=7\n"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 73,
+      "end": 77,
+      "type": "plain",
+      "text": " add"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "type": "number",
+      "text": "5"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 109,
+      "end": 110,
+      "type": "number",
+      "text": "7"
+    },
+    {
+      "start": 110,
+      "end": 111,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 132,
+      "end": 133,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 133,
+      "end": 134,
+      "type": "number",
+      "text": "5"
+    }
+  ]
+}

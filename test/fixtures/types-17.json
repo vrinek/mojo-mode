@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-17",
+  "code": "# Inferred type == List[Int]\nvar l1 = [1, 2, 3, 4]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 29,
+      "type": "plain",
+      "text": "# Inferred type == List[Int]\n"
+    },
+    {
+      "start": 29,
+      "end": 51,
+      "type": "plain",
+      "text": "var l1 = [1, 2, 3, 4]\n"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-11",
+  "code": "n = 0\nwhile n < 5:\n    n += 1\n    if n == 3:\n        break\n    print(n)\nelse:\n    print(\"Executing else clause\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 6,
+      "type": "plain",
+      "text": "n = 0\n"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "type": "plain",
+      "text": "n "
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "type": "plain",
+      "text": " n "
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 78,
+      "end": 82,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 82,
+      "end": 87,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "type": "plain",
+      "text": "n"
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

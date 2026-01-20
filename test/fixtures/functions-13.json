@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-13",
+  "code": "def make_worldly(mut *strs: String):\n    for ref i in strs:\n        i += \" world\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 37,
+      "type": "plain",
+      "text": "def make_worldly(mut *strs: String):\n"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "type": "plain",
+      "text": "strs"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 60,
+      "end": 64,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 67,
+      "end": 70,
+      "type": "plain",
+      "text": " i "
+    },
+    {
+      "start": 70,
+      "end": 72,
+      "type": "operator",
+      "text": "+="
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 73,
+      "end": 81,
+      "type": "string",
+      "text": "\" world\""
+    }
+  ]
+}

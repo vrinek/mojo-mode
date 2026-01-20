@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-14",
+  "code": "var number = Float64(1)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "var number = Float64(1)\n"
+    }
+  ]
+}

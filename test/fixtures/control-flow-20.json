@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-20",
+  "code": "for i in range(5):\n    print(i, end=\", \")\nelse:\n    print(\"\\nFinished executing 'for' loop\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "for i in range(5):\n"
+    },
+    {
+      "start": 81,
+      "end": 84,
+      "type": "keyword",
+      "text": "for"
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

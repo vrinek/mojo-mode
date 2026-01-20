@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-11",
+  "code": "nums = [12, -7, 64]\nfor value in nums:\n    print(\"Value:\", value)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 20,
+      "type": "plain",
+      "text": "nums = [12, -7, 64]\n"
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

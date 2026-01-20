@@ -1,0 +1,121 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-3",
+  "code": "def func2() -> None:\n    raise Error(\"Intentional error\")\n\n\ndef func1() -> None:\n    func2()\n\n\ndef main():\n    try:\n        func1()\n    except e:\n        print(e)\n        print(\"-\" * 20)\n        var stack_trace = e.get_stack_trace()\n        if stack_trace:\n            print(stack_trace.value())\n        else:\n            print(\"No stack trace available\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "def func2() -> None:\n"
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 85,
+      "end": 90,
+      "type": "function",
+      "text": "func2"
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "type": "operator",
+      "text": "-"
+    },
+    {
+      "start": 180,
+      "end": 181,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 255,
+      "end": 256,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 257,
+      "end": 261,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 274,
+      "end": 275,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 293,
+      "end": 294,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 295,
+      "end": 296,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 309,
+      "end": 310,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 310,
+      "end": 311,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 327,
+      "end": 328,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 354,
+      "end": 355,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 355,
+      "end": 356,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

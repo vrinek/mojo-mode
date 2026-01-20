@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-24",
+  "code": "from python import Python\n\ndef main():\n    # Create a mixed-type Python dictionary\n    py_dict = Python.evaluate(\"{'a': 1, 'b': 2.71828, 'c': 'sushi'}\")\n    for py_key in py_dict:  # Each key is of type \"PythonObject\"\n        print(py_key, py_dict[py_key])\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "from python import Python\n"
+    },
+    {
+      "start": 64,
+      "end": 71,
+      "type": "plain",
+      "text": " Python"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 218,
+      "end": 222,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 231,
+      "end": 232,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 255,
+      "end": 256,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

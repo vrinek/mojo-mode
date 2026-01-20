@@ -1,0 +1,103 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-26",
+  "code": "# Empty dictionary\nvar empty_dict: Dict[String, Float64] = {}\n\n# Dictionary with initial key-value pairs\nvar values: Dict[String, Float64] = {\"pi\": 3.14159, \"e\": 2.71828}\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "# Empty dictionary\n"
+    },
+    {
+      "start": 19,
+      "end": 62,
+      "type": "plain",
+      "text": "var empty_dict: Dict[String, Float64] = {}\n"
+    },
+    {
+      "start": 105,
+      "end": 108,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 116,
+      "end": 121,
+      "type": "plain",
+      "text": " Dict"
+    },
+    {
+      "start": 121,
+      "end": 122,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 122,
+      "end": 128,
+      "type": "plain",
+      "text": "String"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 129,
+      "end": 137,
+      "type": "plain",
+      "text": " Float64"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 138,
+      "end": 139,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 139,
+      "end": 140,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "type": "punctuation",
+      "text": "{"
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "type": "punctuation",
+      "text": "}"
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

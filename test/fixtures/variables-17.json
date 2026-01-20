@@ -1,0 +1,103 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-17",
+  "code": "def function_scopes():\n    num = 1\n    if num == 1:\n        print(num)   # Reads the function-scope \"num\"\n        num = 2      # Updates the function-scope variable\n        print(num)   # Reads the function-scope \"num\"\n    print(num)       # Reads the function-scope \"num\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 23,
+      "type": "plain",
+      "text": "def function_scopes():\n"
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 65,
+      "end": 66,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 110,
+      "end": 118,
+      "type": "plain",
+      "text": "    num "
+    },
+    {
+      "start": 118,
+      "end": 119,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 121,
+      "end": 125,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 165,
+      "end": 219,
+      "type": "plain",
+      "text": "        print(num)   # Reads the function-scope \"num\"\n"
+    },
+    {
+      "start": 223,
+      "end": 228,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 228,
+      "end": 229,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 229,
+      "end": 232,
+      "type": "plain",
+      "text": "num"
+    },
+    {
+      "start": 232,
+      "end": 233,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 233,
+      "end": 236,
+      "type": "plain",
+      "text": "   "
+    },
+    {
+      "start": 240,
+      "end": 272,
+      "type": "comment",
+      "text": "# Reads the function-scope \"num\""
+    }
+  ]
+}

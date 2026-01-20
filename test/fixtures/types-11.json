@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-11",
+  "code": "var s = String(\"Items in list: \", 5)\nprint(s)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 37,
+      "type": "plain",
+      "text": "var s = String(\"Items in list: \", 5)\n"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-7",
+  "code": "simd1 = SIMD[DType.float32, 4](2.2, 3.3, 4.4, 5.5)\nsimd2 = SIMD[DType.int16, 4](-1, 2, -3, 4)\nsimd3 = simd1 * simd2.cast[DType.float32]()  # Convert with cast() method\nprint(\"simd3:\", simd3)\nsimd4 = simd2 + SIMD[DType.int16, 4](simd1)  # Convert with SIMD constructor\nprint(\"simd4:\", simd4)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 51,
+      "type": "plain",
+      "text": "simd1 = SIMD[DType.float32, 4](2.2, 3.3, 4.4, 5.5)\n"
+    },
+    {
+      "start": 102,
+      "end": 108,
+      "type": "plain",
+      "text": "simd1 "
+    },
+    {
+      "start": 197,
+      "end": 198,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 206,
+      "end": 211,
+      "type": "plain",
+      "text": " SIMD"
+    },
+    {
+      "start": 211,
+      "end": 212,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 212,
+      "end": 217,
+      "type": "plain",
+      "text": "DType"
+    },
+    {
+      "start": 217,
+      "end": 218,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 223,
+      "end": 224,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 224,
+      "end": 225,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 225,
+      "end": 226,
+      "type": "number",
+      "text": "4"
+    },
+    {
+      "start": 226,
+      "end": 227,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 227,
+      "end": 228,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 282,
+      "end": 283,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 283,
+      "end": 284,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 289,
+      "end": 290,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

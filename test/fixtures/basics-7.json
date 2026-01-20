@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-7",
+  "code": "def print_hello():\n    text = \",\".join(\"Hello\", \" world!\")\n    print(text)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "def print_hello():\n"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

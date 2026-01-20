@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-6",
+  "code": "fn valid_access():\n  var my_string = \"o\"           # Create a run-time String value\n  var other_string = my_string  # Create a copy of the String value\n  append_twice(my_string, other_string)\n  print(my_string)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 19,
+      "type": "plain",
+      "text": "fn valid_access():\n"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 166,
+      "end": 167,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 190,
+      "end": 191,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 192,
+      "end": 194,
+      "type": "plain",
+      "text": "  "
+    },
+    {
+      "start": 199,
+      "end": 200,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 200,
+      "end": 209,
+      "type": "plain",
+      "text": "my_string"
+    },
+    {
+      "start": 209,
+      "end": 210,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

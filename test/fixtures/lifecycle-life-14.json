@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-14",
+  "code": "@fieldwise_init(\"implicit\")\nstruct Counter:\n    var count: Int\n\ndef main():\n    var c: Counter = 5  # implicitly converts from Int\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 28,
+      "type": "plain",
+      "text": "@fieldwise_init(\"implicit\")\n"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 87,
+      "end": 94,
+      "type": "class-name",
+      "text": "Counter"
+    },
+    {
+      "start": 126,
+      "end": 130,
+      "type": "plain",
+      "text": " Int"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-27",
+  "code": "@register_passable(\"trivial\")\nstruct MyInt:\n    \"\"\"A type that is implicitly convertible to `Int`.\"\"\"\n    var value: Int\n\n    @implicit\n    fn __init__(out self, _a: Int):\n        self.value = _a\n\nfn foo[x: MyInt, a: Int]():\n    print(\"foo[x: MyInt, a: Int]()\")\n\nfn foo[x: MyInt, y: MyInt]():\n    print(\"foo[x: MyInt, y: MyInt]()\")\n\nfn bar[a: Int](b: Int):\n    print(\"bar[a: Int](b: Int)\")\n\nfn bar[a: Int](*b: Int):\n    print(\"bar[a: Int](*b: Int)\")\n\nfn bar[*a: Int](b: Int):\n    print(\"bar[*a: Int](b: Int)\")\n\nfn parameter_overloads[a: Int, b: Int, x: MyInt]():\n    # `foo[x: MyInt, a: Int]()` is called because it requires no implicit\n    # conversions, whereas `foo[x: MyInt, y: MyInt]()` requires one.\n    foo[x, a]()\n\n    # `bar[a: Int](b: Int)` is called because it does not have variadic\n    # arguments or parameters.\n    bar[a](b)\n\n    # `bar[*a: Int](b: Int)` is called because it has variadic parameters.\n    bar[a, a, a](b)\n\nparameter_overloads[1, 2, MyInt(3)]()\n\nstruct MyStruct:\n    fn __init__(out self):\n        pass\n\n    fn foo(mut self):\n        print(\"calling instance method\")\n\n    @staticmethod\n    fn foo():\n        print(\"calling static method\")\n\nfn test_static_overload():\n    var a = MyStruct()\n    # `foo(mut self)` takes precedence over a static method.\n    a.foo()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "@register_passable(\"trivial\")\n"
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 976,
+      "end": 982,
+      "type": "keyword",
+      "text": "struct"
+    },
+    {
+      "start": 982,
+      "end": 983,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 991,
+      "end": 992,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 993,
+      "end": 997,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1020,
+      "end": 1024,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1201,
+      "end": 1204,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 1219,
+      "end": 1220,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 1220,
+      "end": 1224,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1281,
+      "end": 1285,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 1290,
+      "end": 1291,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 1291,
+      "end": 1292,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 1292,
+      "end": 1293,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

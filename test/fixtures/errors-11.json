@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "errors-11",
+  "code": "with open(input_file, \"r\") as f:\n    content = f.read()\n    # Process the content as needed\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "with open(input_file, \"r\") as f:\n"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 56,
+      "end": 57,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 82,
+      "end": 84,
+      "type": "keyword",
+      "text": "as"
+    }
+  ]
+}

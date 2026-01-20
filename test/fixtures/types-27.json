@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-27",
+  "code": "var values = Dict[String, Float64]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 37,
+      "type": "plain",
+      "text": "var values = Dict[String, Float64]()\n"
+    }
+  ]
+}

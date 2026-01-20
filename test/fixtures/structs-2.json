@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-2",
+  "code": "@fieldwise_init\nstruct MyPair:\n    var first: Int\n    var second: Int\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 16,
+      "end": 31,
+      "type": "plain",
+      "text": "struct MyPair:\n"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 65,
+      "end": 69,
+      "type": "plain",
+      "text": " Int"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-4",
+  "code": "fn make_it_quack[DuckType: Quackable](maybe_a_duck: DuckType):\n    maybe_a_duck.quack()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 63,
+      "type": "plain",
+      "text": "fn make_it_quack[DuckType: Quackable](maybe_a_duck: DuckType):\n"
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

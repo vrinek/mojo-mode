@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-15",
+  "code": "# Explicit copy\nvar s = \"Test string\"\nvar s2 = s.copy()\n\n# Implicit copy\nvar i = 15\nvar i2 = i\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "# Explicit copy\n"
+    },
+    {
+      "start": 16,
+      "end": 38,
+      "type": "plain",
+      "text": "var s = \"Test string\"\n"
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 73,
+      "end": 76,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 84,
+      "end": 87,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-25",
+  "code": "var list = [2, 3, 4]\nfor ref item in list:     # Capture a ref to the list element\n      print(item, end=\", \")\n      item = 0  # Mutates the element inside the list\nprint(\"\\nAfter loop:\", list[0], list[1], list[2])\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "var list = [2, 3, 4]\n"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "type": "builtin",
+      "text": "list"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 192,
+      "end": 193,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 211,
+      "end": 212,
+      "type": "number",
+      "text": "2"
+    },
+    {
+      "start": 212,
+      "end": 213,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 213,
+      "end": 214,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

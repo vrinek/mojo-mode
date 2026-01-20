@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-26",
+  "code": "repeater = Multispeak[12]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 28,
+      "type": "plain",
+      "text": "repeater = Multispeak[12]()\n"
+    }
+  ]
+}

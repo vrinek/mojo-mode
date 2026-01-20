@@ -1,0 +1,91 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-30",
+  "code": "def get_name_tag(var name: String) -> NameTag:\n    ...\ndef get_name_tag(var name: String, out name_tag: NameTag):\n    ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 47,
+      "type": "plain",
+      "text": "def get_name_tag(var name: String) -> NameTag:\n"
+    },
+    {
+      "start": 55,
+      "end": 58,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 59,
+      "end": 71,
+      "type": "function",
+      "text": "get_name_tag"
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 72,
+      "end": 75,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 75,
+      "end": 80,
+      "type": "plain",
+      "text": " name"
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 81,
+      "end": 88,
+      "type": "plain",
+      "text": " String"
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 114,
+      "end": 115,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 118,
+      "end": 119,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "type": "punctuation",
+      "text": "."
+    }
+  ]
+}

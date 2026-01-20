@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-2",
+  "code": "struct MyPet:\n    var name: String\n    var age: Int\n\n    fn __init__(out self, name: String, age: Int):\n        self.name = name\n        self.age = age\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 14,
+      "type": "plain",
+      "text": "struct MyPet:\n"
+    },
+    {
+      "start": 14,
+      "end": 15,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 39,
+      "end": 42,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 78,
+      "end": 83,
+      "type": "plain",
+      "text": " name"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 84,
+      "end": 91,
+      "type": "plain",
+      "text": " String"
+    },
+    {
+      "start": 104,
+      "end": 108,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 147,
+      "end": 151,
+      "type": "plain",
+      "text": " age"
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

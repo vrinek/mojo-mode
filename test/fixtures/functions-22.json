@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-22",
+  "code": "fn sort(*values: Float64, ascending: Bool = True): ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 55,
+      "type": "plain",
+      "text": "fn sort(*values: Float64, ascending: Bool = True): ...\n"
+    }
+  ]
+}

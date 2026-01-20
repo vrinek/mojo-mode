@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-11",
+  "code": "fn print(x: String):\n    \"\"\"Prints a string.\n\n    Args:\n        x: The string to print.\n    \"\"\"\n    ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "fn print(x: String):\n"
+    },
+    {
+      "start": 21,
+      "end": 22,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 81,
+      "end": 86,
+      "type": "function",
+      "text": "print"
+    },
+    {
+      "start": 88,
+      "end": 92,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 96,
+      "end": 104,
+      "type": "plain",
+      "text": "    ...\n"
+    }
+  ]
+}

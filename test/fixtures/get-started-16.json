@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-16",
+  "code": "print(\"Rows:\", my_grid.rows)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 29,
+      "type": "plain",
+      "text": "print(\"Rows:\", my_grid.rows)\n"
+    }
+  ]
+}

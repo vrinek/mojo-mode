@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-15",
+  "code": "trait Animal:\n    fn make_sound(self):\n        ...\n\n# Bird inherits from Animal\ntrait Bird(Animal):\n    fn fly(self):\n        ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 14,
+      "type": "plain",
+      "text": "trait Animal:\n"
+    },
+    {
+      "start": 80,
+      "end": 85,
+      "type": "keyword",
+      "text": "trait"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 100,
+      "end": 104,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 104,
+      "end": 106,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 110,
+      "end": 111,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 111,
+      "end": 115,
+      "type": "special-vars",
+      "text": "self"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 118,
+      "end": 130,
+      "type": "plain",
+      "text": "        ...\n"
+    }
+  ]
+}

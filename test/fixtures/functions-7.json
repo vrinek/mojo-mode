@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-7",
+  "code": "def myfunc2(*names, **attributes):\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 35,
+      "type": "plain",
+      "text": "def myfunc2(*names, **attributes):\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-9",
+  "code": "struct MyPair(Movable):\n...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "struct MyPair(Movable):\n"
+    },
+    {
+      "start": 24,
+      "end": 28,
+      "type": "plain",
+      "text": "...\n"
+    }
+  ]
+}

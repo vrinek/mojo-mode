@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-6",
+  "code": "def print_line():\n    long_text = \"This is a long line of text that is a lot easier to read if\"\n                \" it is broken up across two lines instead of one long line.\"\n    print(long_text)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "def print_line():\n"
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 183,
+      "end": 184,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 193,
+      "end": 194,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

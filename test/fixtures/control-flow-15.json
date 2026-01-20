@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-15",
+  "code": "for item in capitals.items():\n    print(item.value + \", \" + item.key)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "for item in capitals.items():\n"
+    },
+    {
+      "start": 36,
+      "end": 38,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

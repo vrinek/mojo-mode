@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-15",
+  "code": "trait SomeTrait:\n    fn required_method(self, x: Int): ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "trait SomeTrait:\n"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 56,
+      "end": 57,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "type": "punctuation",
+      "text": "."
+    }
+  ]
+}

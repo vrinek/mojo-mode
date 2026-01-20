@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/errors",
+  "title": "stacktrace_error.mojo",
+  "code": "def func2() -> None:\n    raise Error(\"Intentional error\")\n\n\ndef func1() -> None:\n    func2()\n\n\ndef main():\n    func1()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "def func2() -> None:\n"
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 85,
+      "end": 90,
+      "type": "function",
+      "text": "func2"
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 118,
+      "end": 119,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

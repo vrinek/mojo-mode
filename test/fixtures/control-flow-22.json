@@ -1,0 +1,85 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-22",
+  "code": "from collections import List\n\nanimals = [\"cat\", \"aardvark\", \"hippopotamus\", \"dog\"]\nfor animal in animals:\n    if animal == \"dog\":\n        print(\"Found a dog\")\n        break\nelse:\n    print(\"No dog found\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 29,
+      "type": "plain",
+      "text": "from collections import List\n"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 30,
+      "end": 83,
+      "type": "plain",
+      "text": "animals = [\"cat\", \"aardvark\", \"hippopotamus\", \"dog\"]\n"
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 132,
+      "end": 133,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 140,
+      "end": 142,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 177,
+      "end": 178,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 179,
+      "end": 183,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 192,
+      "end": 193,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 203,
+      "end": 204,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

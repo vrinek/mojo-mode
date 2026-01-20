@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-25",
+  "code": "ref item_ref = items[1]  # item_ref is a reference to item[1]\nitem_ref += 1  # increments items[1]\nprint(items[1])  # prints 78\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 62,
+      "type": "plain",
+      "text": "ref item_ref = items[1]  # item_ref is a reference to item[1]\n"
+    },
+    {
+      "start": 67,
+      "end": 70,
+      "type": "keyword",
+      "text": "ref"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 89,
+      "end": 95,
+      "type": "plain",
+      "text": " items"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "type": "number",
+      "text": "1"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 114,
+      "end": 116,
+      "type": "plain",
+      "text": "  "
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 118,
+      "end": 123,
+      "type": "keyword",
+      "text": "print"
+    }
+  ]
+}

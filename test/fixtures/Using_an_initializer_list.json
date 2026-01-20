@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "Using an initializer list",
+  "code": "process_pair({2, 4})\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "process_pair({2, 4})\n"
+    }
+  ]
+}

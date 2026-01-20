@@ -1,0 +1,37 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-15",
+  "code": "def count_many_things[*ArgTypes: Intable](*args: *ArgTypes):\n    ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 61,
+      "type": "plain",
+      "text": "def count_many_things[*ArgTypes: Intable](*args: *ArgTypes):\n"
+    },
+    {
+      "start": 61,
+      "end": 62,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 65,
+      "end": 66,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 66,
+      "end": 67,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "punctuation",
+      "text": "."
+    }
+  ]
+}

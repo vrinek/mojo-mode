@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-23",
+  "code": "var list: List[Int]\nlist = [1, 2, 3, 4]\nfor i in range(len(list)):\n    print(list[i], end=\" \")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 20,
+      "type": "plain",
+      "text": "var list: List[Int]\n"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "type": "builtin",
+      "text": "list"
+    },
+    {
+      "start": 65,
+      "end": 66,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

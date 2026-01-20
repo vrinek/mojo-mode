@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-14",
+  "code": "var capitals: Dict[String, String] = {\n    \"California\": \"Sacramento\",\n    \"Hawaii\": \"Honolulu\",\n    \"Oregon\": \"Salem\"\n}\n\nfor var state in capitals:\n    print(capitals[state] + \", \" + state)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 39,
+      "type": "plain",
+      "text": "var capitals: Dict[String, String] = {\n"
+    },
+    {
+      "start": 126,
+      "end": 129,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 138,
+      "end": 147,
+      "type": "plain",
+      "text": " capitals"
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 167,
+      "end": 168,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 179,
+      "end": 180,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 181,
+      "end": 182,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 183,
+      "end": 184,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 190,
+      "end": 191,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-20",
+  "code": "@fieldwise_init\nstruct IntLike(Intable):\n    var i: Int\n\n    fn __int__(self) -> Int:\n        return self.i\n\nvalue = IntLike(42)\nprint(Int(value) == 42)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 16,
+      "end": 41,
+      "type": "plain",
+      "text": "struct IntLike(Intable):\n"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 117,
+      "end": 124,
+      "type": "class-name",
+      "text": "IntLike"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 145,
+      "end": 146,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 152,
+      "end": 153,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

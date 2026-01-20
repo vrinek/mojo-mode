@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-1",
+  "code": "NoInstances.print_hello()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "NoInstances.print_hello()\n"
+    }
+  ]
+}

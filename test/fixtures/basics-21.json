@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/basics",
+  "title": "basics-21",
+  "code": "from python import Python\n\ndef main():\n    var np = Python.import_module(\"numpy\")\n    var ar = np.arange(15).reshape(3, 5)\n    print(ar)\n    print(ar.shape)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "from python import Python\n"
+    },
+    {
+      "start": 59,
+      "end": 65,
+      "type": "keyword",
+      "text": "import"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 123,
+      "end": 127,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

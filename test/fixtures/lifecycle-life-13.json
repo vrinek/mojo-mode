@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-13",
+  "code": "var t: OverloadedTarget = Source() # Error: can't implicitly convert Source\n                                   # to Target\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 76,
+      "type": "plain",
+      "text": "var t: OverloadedTarget = Source() # Error: can't implicitly convert Source\n"
+    },
+    {
+      "start": 112,
+      "end": 114,
+      "type": "plain",
+      "text": " t"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-7",
+  "code": "fib_prev = 0\nfib_curr = 1\n\nprint(fib_prev, end=\"\")\nwhile fib_curr < 50:\n    print(\",\", fib_curr, end=\"\")\n    fib_prev, fib_curr = fib_curr, fib_prev + fib_curr\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 13,
+      "type": "plain",
+      "text": "fib_prev = 0\n"
+    },
+    {
+      "start": 140,
+      "end": 149,
+      "type": "plain",
+      "text": "fib_prev "
+    },
+    {
+      "start": 150,
+      "end": 151,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 159,
+      "end": 160,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

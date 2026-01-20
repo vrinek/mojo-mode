@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-12",
+  "code": "states = [\"California\", \"Hawaii\", \"Oregon\"]\nfor state in states:\n    print(state)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 44,
+      "type": "plain",
+      "text": "states = [\"California\", \"Hawaii\", \"Oregon\"]\n"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 56,
+      "end": 57,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 71,
+      "end": 73,
+      "type": "keyword",
+      "text": "in"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 75,
+      "end": 80,
+      "type": "plain",
+      "text": "state"
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

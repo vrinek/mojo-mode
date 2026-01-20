@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-13",
+  "code": "struct MyStruct:\n    var count: Int\n    var count: String # Error. Invalid redeclaration of `count`\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "struct MyStruct:\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 40,
+      "end": 43,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 43,
+      "end": 49,
+      "type": "plain",
+      "text": " count"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 50,
+      "end": 58,
+      "type": "plain",
+      "text": " String "
+    },
+    {
+      "start": 58,
+      "end": 99,
+      "type": "comment",
+      "text": "# Error. Invalid redeclaration of `count`"
+    }
+  ]
+}

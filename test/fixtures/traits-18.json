@@ -1,0 +1,103 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-18",
+  "code": "# trait Defaultable\n#     fn __init__(out self): ...\n\n# trait Movable\n#     fn __moveinit__(out self, deinit existing: Self): ...\n\ncomptime MassProducible = Defaultable & Movable\n\nfn factory[type: MassProducible]() -> type:\n    return type()\n\nstruct Thing(MassProducible):\n    var id: Int\n\n    fn __init__(out self):\n        self.id = 0\n\n    fn __moveinit__(out self, deinit existing: Self):\n        self.id = existing.id\n\nvar thing = factory[Thing]()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 20,
+      "type": "plain",
+      "text": "# trait Defaultable\n"
+    },
+    {
+      "start": 20,
+      "end": 53,
+      "type": "plain",
+      "text": "#     fn __init__(out self): ...\n"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 54,
+      "end": 70,
+      "type": "plain",
+      "text": "# trait Movable\n"
+    },
+    {
+      "start": 70,
+      "end": 130,
+      "type": "plain",
+      "text": "#     fn __moveinit__(out self, deinit existing: Self): ...\n"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 131,
+      "end": 179,
+      "type": "plain",
+      "text": "comptime MassProducible = Defaultable & Movable\n"
+    },
+    {
+      "start": 333,
+      "end": 334,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 336,
+      "end": 337,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 342,
+      "end": 344,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 434,
+      "end": 442,
+      "type": "plain",
+      "text": " factory"
+    },
+    {
+      "start": 442,
+      "end": 443,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 448,
+      "end": 449,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 449,
+      "end": 450,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 450,
+      "end": 451,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 451,
+      "end": 452,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-21",
+  "code": "from collections import List\n\nvar empty: List[Int] = []\nfor i in empty:\n    print(i)\nelse:\n    print(\"Finished executing 'for' loop\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 29,
+      "type": "plain",
+      "text": "from collections import List\n"
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "type": "plain",
+      "text": " List"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 64,
+      "end": 70,
+      "type": "plain",
+      "text": " empty"
+    },
+    {
+      "start": 70,
+      "end": 71,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 122,
+      "end": 125,
+      "type": "keyword",
+      "text": "for"
+    },
+    {
+      "start": 132,
+      "end": 133,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

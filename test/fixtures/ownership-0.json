@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-0",
+  "code": "ref value_ref = list[0]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "ref value_ref = list[0]\n"
+    }
+  ]
+}

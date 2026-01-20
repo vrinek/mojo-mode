@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-1",
+  "code": "trait Quackable:\n    fn quack(self):\n        ...\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 17,
+      "type": "plain",
+      "text": "trait Quackable:\n"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "type": "punctuation",
+      "text": "."
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "type": "punctuation",
+      "text": "."
+    }
+  ]
+}

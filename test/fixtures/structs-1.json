@@ -1,0 +1,73 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-1",
+  "code": "struct MyPair:\n    var first: Int\n    var second: Int\n\n    fn __init__(out self, first: Int, second: Int):\n        self.first = first\n        self.second = second\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 15,
+      "type": "plain",
+      "text": "struct MyPair:\n"
+    },
+    {
+      "start": 15,
+      "end": 16,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 34,
+      "end": 38,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 80,
+      "end": 86,
+      "type": "plain",
+      "text": " first"
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 87,
+      "end": 91,
+      "type": "plain",
+      "text": " Int"
+    },
+    {
+      "start": 107,
+      "end": 111,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 155,
+      "end": 162,
+      "type": "plain",
+      "text": " second"
+    },
+    {
+      "start": 162,
+      "end": 163,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

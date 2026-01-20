@@ -1,0 +1,25 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/traits",
+  "title": "traits-14",
+  "code": "struct FlyingDuck(Copyable, Quackable, Flyable):\n    # ... etc\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 49,
+      "type": "plain",
+      "text": "struct FlyingDuck(Copyable, Quackable, Flyable):\n"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 53,
+      "end": 62,
+      "type": "comment",
+      "text": "# ... etc"
+    }
+  ]
+}

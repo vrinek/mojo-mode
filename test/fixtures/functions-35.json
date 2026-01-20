@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-35",
+  "code": "def raises_error():\n    raise Error(\"There was an error.\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 20,
+      "type": "plain",
+      "text": "def raises_error():\n"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

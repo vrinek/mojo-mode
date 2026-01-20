@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-31",
+  "code": "tag = get_name_tag(\"Judith\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 29,
+      "type": "plain",
+      "text": "tag = get_name_tag(\"Judith\")\n"
+    }
+  ]
+}

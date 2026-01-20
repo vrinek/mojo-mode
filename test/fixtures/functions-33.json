@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-33",
+  "code": "def create_immovable_object2(var name: String) -> ImmovableObject:\n    obj = ImmovableObject(name^)\n    obj.name += \"!\"\n    return obj^ # Error: ImmovableObject is not copyable or movable\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 67,
+      "type": "plain",
+      "text": "def create_immovable_object2(var name: String) -> ImmovableObject:\n"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 144,
+      "end": 145,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 163,
+      "end": 164,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

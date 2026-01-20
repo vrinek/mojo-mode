@@ -1,0 +1,85 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-3",
+  "code": "def true_func() -> Bool:\n    print(\"Executing true_func\")\n    return True\n\ndef false_func() -> Bool:\n    print(\"Executing false_func\")\n    return False\n\nprint('Short-circuit \"or\" evaluation')\nif true_func() or false_func():\n    print(\"True result\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 25,
+      "type": "plain",
+      "text": "def true_func() -> Bool:\n"
+    },
+    {
+      "start": 75,
+      "end": 78,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 195,
+      "end": 204,
+      "type": "function",
+      "text": "true_func"
+    },
+    {
+      "start": 204,
+      "end": 205,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 205,
+      "end": 206,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 206,
+      "end": 207,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 222,
+      "end": 223,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 224,
+      "end": 228,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 228,
+      "end": 233,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 233,
+      "end": 234,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 247,
+      "end": 248,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 248,
+      "end": 249,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

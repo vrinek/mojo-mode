@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-11",
+  "code": "struct A:\n    @implicit\n    fn __init__(out self, s: Source): ...\n\nstruct B:\n    @implicit\n    fn __init__(out self, s: Source): ...\n\nstruct OverloadedTarget:\n    @implicit\n    fn __init__(out self, a: A): ...\n    @implicit\n    fn __init__(out self, b: B): ...\n\nvar t = OverloadedTarget(Source()) # Error: ambiguous call to '__init__': each\n                                   # candidate requires 1 implicit conversion\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 10,
+      "type": "plain",
+      "text": "struct A:\n"
+    },
+    {
+      "start": 67,
+      "end": 73,
+      "type": "keyword",
+      "text": "struct"
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 202,
+      "end": 203,
+      "type": "class-name",
+      "text": "A"
+    },
+    {
+      "start": 204,
+      "end": 205,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 210,
+      "end": 224,
+      "type": "plain",
+      "text": "    @implicit\n"
+    },
+    {
+      "start": 224,
+      "end": 228,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 341,
+      "end": 345,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 345,
+      "end": 346,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 346,
+      "end": 347,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 347,
+      "end": 348,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 418,
+      "end": 419,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

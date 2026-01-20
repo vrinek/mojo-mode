@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-21",
+  "code": "fn min(a: Int, b: Int, /) -> Int:\n    return a if a < b else b\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 34,
+      "type": "plain",
+      "text": "fn min(a: Int, b: Int, /) -> Int:\n"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "plain",
+      "text": "a"
+    },
+    {
+      "start": 53,
+      "end": 55,
+      "type": "plain",
+      "text": " b"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "type": "plain",
+      "text": " "
+    }
+  ]
+}

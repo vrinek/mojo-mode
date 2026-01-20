@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-11",
+  "code": "fn my_function(x: Int):\n    var z: Float32\n    if x != 0:\n        z = 1.0\n    else:\n        z = foo()\n    print(z)\n\nfn foo() -> Float32:\n    return 3.14\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "fn my_function(x: Int):\n"
+    },
+    {
+      "start": 116,
+      "end": 118,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 118,
+      "end": 119,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 135,
+      "end": 136,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 137,
+      "end": 141,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 152,
+      "end": 153,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

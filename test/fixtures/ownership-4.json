@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/values/ownership",
+  "title": "ownership-4",
+  "code": "def print_list(list: List[Int]):\n    print(list.__str__())\n\ndef mutate_copy(l: List[Int]) -> List[Int]:\n    # def creates an implicit copy of the list because it's mutated\n    l.append(5)\n    return l\n\ndef main():\n    var values = [1, 2, 3, 4]\n\n    values = mutate_copy(values)\n    print_list(values)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 33,
+      "type": "plain",
+      "text": "def print_list(list: List[Int]):\n"
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "type": "keyword",
+      "text": "def"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 282,
+      "end": 292,
+      "type": "function",
+      "text": "print_list"
+    },
+    {
+      "start": 292,
+      "end": 293,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 299,
+      "end": 300,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 300,
+      "end": 301,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-4",
+  "code": "var temperature: Float64 = 99\nprint(temperature)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 30,
+      "type": "plain",
+      "text": "var temperature: Float64 = 99\n"
+    },
+    {
+      "start": 30,
+      "end": 49,
+      "type": "plain",
+      "text": "print(temperature)\n"
+    }
+  ]
+}

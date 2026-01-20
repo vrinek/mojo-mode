@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-5",
+  "code": "var v: SIMD[DType.float64, 16]\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 31,
+      "type": "plain",
+      "text": "var v: SIMD[DType.float64, 16]\n"
+    }
+  ]
+}

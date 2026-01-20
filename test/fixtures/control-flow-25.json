@@ -1,0 +1,67 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-25",
+  "code": "from python import Python\n\ndef main():\n    # Create a mixed-type Python dictionary\n    py_dict = Python.evaluate(\"{'a': 1, 'b': 2.71828, 'c': 'sushi'}\")\n    for py_tuple in py_dict.items():  # Each 2-tuple is of type \"PythonObject\"\n        print(py_tuple[0], py_tuple[1])\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "from python import Python\n"
+    },
+    {
+      "start": 64,
+      "end": 71,
+      "type": "plain",
+      "text": " Python"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 232,
+      "end": 236,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 245,
+      "end": 246,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 270,
+      "end": 271,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

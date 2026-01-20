@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-21",
+  "code": "one_value = 15\nanother_value = one_value  # implicit copy\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 15,
+      "type": "plain",
+      "text": "one_value = 15\n"
+    },
+    {
+      "start": 31,
+      "end": 41,
+      "type": "plain",
+      "text": "one_value "
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 42,
+      "end": 57,
+      "type": "comment",
+      "text": "# implicit copy"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-2",
+  "code": "temp_celsius = 25\nif temp_celsius <= 0:\n    print(\"It is freezing.\")\nelif temp_celsius < 20:\n    print(\"It is cool.\")\nelif temp_celsius < 30:\n    print(\"It is warm.\")\nelse:\n    print(\"It is hot.\")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 18,
+      "type": "plain",
+      "text": "temp_celsius = 25\n"
+    },
+    {
+      "start": 21,
+      "end": 34,
+      "type": "plain",
+      "text": "temp_celsius "
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 71,
+      "end": 73,
+      "type": "keyword",
+      "text": "if"
+    },
+    {
+      "start": 73,
+      "end": 87,
+      "type": "plain",
+      "text": " temp_celsius "
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "type": "number",
+      "text": "0"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 93,
+      "end": 97,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 97,
+      "end": 102,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 118,
+      "end": 122,
+      "type": "keyword",
+      "text": "elif"
+    },
+    {
+      "start": 122,
+      "end": 136,
+      "type": "plain",
+      "text": " temp_celsius "
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "type": "operator",
+      "text": "<"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 142,
+      "end": 146,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 146,
+      "end": 151,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 165,
+      "end": 166,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 173,
+      "end": 174,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 177,
+      "end": 182,
+      "type": "keyword",
+      "text": "print"
+    },
+    {
+      "start": 182,
+      "end": 183,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 195,
+      "end": 196,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

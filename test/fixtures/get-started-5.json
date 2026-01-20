@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-5",
+  "code": "nums = [12, -7, 64]\nnums.append(-937)\nprint(\"Number of elements in the list:\", len(nums))\nprint(\"Popping last element off the list:\", nums.pop())\nprint(\"First element of the list:\", nums[0])\nprint(\"Second element of the list:\", nums[1])\nprint(\"Last element of the list:\", nums[-1])\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 20,
+      "type": "plain",
+      "text": "nums = [12, -7, 64]\n"
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 186,
+      "end": 187,
+      "type": "punctuation",
+      "text": "["
+    },
+    {
+      "start": 226,
+      "end": 227,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 227,
+      "end": 228,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 277,
+      "end": 278,
+      "type": "operator",
+      "text": "-"
+    },
+    {
+      "start": 279,
+      "end": 280,
+      "type": "punctuation",
+      "text": "]"
+    },
+    {
+      "start": 280,
+      "end": 281,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

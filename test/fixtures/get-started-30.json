@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "get-started-30",
+  "code": "from python import Python\n\ndef run_display():\n    # This is roughly equivalent to Python's `import pygame`\n    pygame = Python.import_module(\"pygame\")\n\n    # Initialize pygame modules\n    pygame.init()\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "from python import Python\n"
+    },
+    {
+      "start": 92,
+      "end": 98,
+      "type": "keyword",
+      "text": "import"
+    },
+    {
+      "start": 119,
+      "end": 126,
+      "type": "plain",
+      "text": " Python"
+    },
+    {
+      "start": 150,
+      "end": 151,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 152,
+      "end": 153,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 199,
+      "end": 200,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 200,
+      "end": 201,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 201,
+      "end": 202,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

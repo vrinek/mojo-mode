@@ -1,0 +1,13 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-12",
+  "code": "var t = OverloadedTarget(A(Source())) # OK\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 43,
+      "type": "plain",
+      "text": "var t = OverloadedTarget(A(Source())) # OK\n"
+    }
+  ]
+}

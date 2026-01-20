@@ -1,0 +1,43 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-0",
+  "code": "var big_num = 1.0e16\nvar bigger_num = big_num + 1.0\nprint(big_num == bigger_num)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "var big_num = 1.0e16\n"
+    },
+    {
+      "start": 21,
+      "end": 24,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 37,
+      "end": 46,
+      "type": "plain",
+      "text": " big_num "
+    },
+    {
+      "start": 66,
+      "end": 67,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/get-started",
+  "title": "life.mojo",
+  "code": "import time\n\nfrom gridv1 import Grid\nfrom python import Python\n\n\ndef run_display(\n    var grid: Grid,\n    window_height: Int = 600,\n    window_width: Int = 600,\n    background_color: String = \"black\",\n    cell_color: String = \"green\",\n    pause: Float64 = 0.1,\n) -> None:\n    # Import the pygame Python package\n    pygame = Python.import_module(\"pygame\")\n\n    # Initialize pygame modules\n    pygame.init()\n\n    # Create a window and set its title\n    window = pygame.display.set_mode(Python.tuple(window_width, window_height))\n    pygame.display.set_caption(\"Conway's Game of Life\")\n\n    cell_height = window_height / grid.rows\n    cell_width = window_width / grid.cols\n    border_size = 1\n    cell_fill_color = pygame.Color(cell_color)\n    background_fill_color = pygame.Color(background_color)\n\n    running = True\n    while running:\n        # Poll for events\n        event = pygame.event.poll()\n        if event.type == pygame.QUIT:\n            # Quit if the window is closed\n            running = False\n        elif event.type == pygame.KEYDOWN:\n            # Also quit if the user presses <Escape> or 'q'\n            if event.key == pygame.K_ESCAPE or event.key == pygame.K_q:\n                running = False\n\n        # Clear the window by painting with the background color\n        window.fill(background_fill_color)\n\n        # Draw each live cell in the grid\n        for row in range(grid.rows):\n            for col in range(grid.cols):\n                if grid[row, col]:\n                    x = col * cell_width + border_size\n                    y = row * cell_height + border_size\n                    width = cell_width - border_size\n                    height = cell_height - border_size\n                    pygame.draw.rect(\n                        window,\n                        cell_fill_color,\n                        Python.tuple(x, y, width, height),\n                    )\n\n        # Update the display\n        pygame.display.flip()\n\n        # Pause to let the user appreciate the scene\n        time.sleep(pause)\n\n        # Next generation\n        grid = grid.evolve()\n\n    # Shut down pygame cleanly\n    pygame.quit()\n\n\ndef main():\n    start = Grid.random(128, 128)\n    run_display(start^)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 12,
+      "type": "plain",
+      "text": "import time\n"
+    },
+    {
+      "start": 25,
+      "end": 31,
+      "type": "keyword",
+      "text": "import"
+    },
+    {
+      "start": 2010,
+      "end": 2015,
+      "type": "plain",
+      "text": " time"
+    },
+    {
+      "start": 2028,
+      "end": 2029,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 2160,
+      "end": 2165,
+      "type": "plain",
+      "text": " Grid"
+    },
+    {
+      "start": 2182,
+      "end": 2183,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 2206,
+      "end": 2207,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

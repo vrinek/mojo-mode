@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/variables",
+  "title": "variables-10",
+  "code": "var name1: String = \"Sam\"\nvar name2 = String(\"Sam\")\nvar name3 = \"Sam\"\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 26,
+      "type": "plain",
+      "text": "var name1: String = \"Sam\"\n"
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 45,
+      "end": 50,
+      "type": "string",
+      "text": "\"Sam\""
+    },
+    {
+      "start": 52,
+      "end": 55,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 64,
+      "end": 69,
+      "type": "string",
+      "text": "\"Sam\""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/functions",
+  "title": "functions-8",
+  "code": "fn my_pow(base: Int, exp: Int = 2) -> Int:\n    return base ** exp\n\nfn use_defaults():\n    # Uses the default value for `exp`\n    var z = my_pow(3)\n    print(z)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 43,
+      "type": "plain",
+      "text": "fn my_pow(base: Int, exp: Int = 2) -> Int:\n"
+    },
+    {
+      "start": 67,
+      "end": 69,
+      "type": "keyword",
+      "text": "fn"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 137,
+      "end": 143,
+      "type": "function",
+      "text": "my_pow"
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 159,
+      "end": 160,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

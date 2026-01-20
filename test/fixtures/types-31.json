@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/types",
+  "title": "types-31",
+  "code": "var opt: Optional[String] = \"Testing\"\nif opt:\n    var value_ref = opt.value()\n    print(value_ref)\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 38,
+      "type": "plain",
+      "text": "var opt: Optional[String] = \"Testing\"\n"
+    },
+    {
+      "start": 50,
+      "end": 53,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 65,
+      "end": 69,
+      "type": "plain",
+      "text": " opt"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 88,
+      "end": 93,
+      "type": "plain",
+      "text": "value"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

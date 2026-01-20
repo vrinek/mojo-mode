@@ -1,0 +1,61 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-8",
+  "code": "var a = MyPair(1, 2)\n\n# Implicit copy\nvar b = a  # value of type 'MyPair' is not implicitly copyable, it does not\n           # conform to 'ImplicitlyCopyable'\n\n# Explicit copy\nvar c = a.copy()  # 'MyPair' value has no attribute 'copy'\n\n# Move\nvar d = a^  #  value of type 'MyPair' cannot be copied or moved; consider\n            # conforming it to 'Copyable', which also adds 'Movable' conformance.\n\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 21,
+      "type": "plain",
+      "text": "var a = MyPair(1, 2)\n"
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "type": "plain",
+      "text": " a "
+    },
+    {
+      "start": 182,
+      "end": 183,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 190,
+      "end": 191,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 358,
+      "end": 359,
+      "type": "punctuation",
+      "text": ","
+    },
+    {
+      "start": 359,
+      "end": 360,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 398,
+      "end": 399,
+      "type": "plain",
+      "text": "\n"
+    },
+    {
+      "start": 399,
+      "end": 400,
+      "type": "plain",
+      "text": "\n"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/lifecycle/life",
+  "title": "lifecycle-life-23",
+  "code": "@fieldwise_init\nstruct MyPet(Copyable):\n    var name: String\n    var age: Int\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 16,
+      "type": "plain",
+      "text": "@fieldwise_init\n"
+    },
+    {
+      "start": 16,
+      "end": 40,
+      "type": "plain",
+      "text": "struct MyPet(Copyable):\n"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 52,
+      "end": 53,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 61,
+      "end": 65,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 65,
+      "end": 68,
+      "type": "keyword",
+      "text": "var"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 73,
+      "end": 77,
+      "type": "plain",
+      "text": " Int"
+    }
+  ]
+}

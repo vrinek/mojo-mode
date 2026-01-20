@@ -1,0 +1,31 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/structs",
+  "title": "structs-18",
+  "code": "var mine = MyPair(6, 8)\nprint(mine.get_sum())\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 24,
+      "type": "plain",
+      "text": "var mine = MyPair(6, 8)\n"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "type": "punctuation",
+      "text": "("
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "punctuation",
+      "text": ")"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "type": "punctuation",
+      "text": ")"
+    }
+  ]
+}

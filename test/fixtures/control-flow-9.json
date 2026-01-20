@@ -1,0 +1,79 @@
+{
+  "source": "https://docs.modular.com/mojo/manual/control-flow",
+  "title": "control-flow-9",
+  "code": "n = 0\nwhile n < 5:\n    n += 1\n    if n == 3:\n        break\n    print(n, end=\", \")\n",
+  "tokens": [
+    {
+      "start": 0,
+      "end": 6,
+      "type": "plain",
+      "text": "n = 0\n"
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "type": "plain",
+      "text": "n "
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "type": "operator",
+      "text": "="
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "type": "plain",
+      "text": " n "
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "type": "punctuation",
+      "text": ":"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "type": "plain",
+      "text": "    "
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "type": "plain",
+      "text": " "
+    },
+    {
+      "start": 53,
+      "end": 58,
+      "type": "keyword",
+      "text": "break"
+    },
+    {
+      "start": 59,
+      "end": 82,
+      "type": "plain",
+      "text": "    print(n, end=\", \")\n"
+    }
+  ]
+}
