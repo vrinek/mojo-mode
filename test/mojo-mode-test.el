@@ -149,7 +149,50 @@
   (it "does not use tabs"
     (with-temp-buffer
       (mojo-mode)
-      (expect indent-tabs-mode :to-be nil))))
+      (expect indent-tabs-mode :to-be nil)))
+
+  (it "indents after colon"
+    (with-temp-buffer
+      (mojo-mode)
+      (insert "def main():\n")
+      (mojo-indent-line)
+      (expect (current-indentation) :to-equal 4)))
+
+  (it "indents after fn declaration"
+    (with-temp-buffer
+      (mojo-mode)
+      (insert "fn foo():\n")
+      (mojo-indent-line)
+      (expect (current-indentation) :to-equal 4)))
+
+  (it "indents after if statement"
+    (with-temp-buffer
+      (mojo-mode)
+      (insert "if x > 0:\n")
+      (mojo-indent-line)
+      (expect (current-indentation) :to-equal 4)))
+
+  (it "maintains indentation for regular lines"
+    (with-temp-buffer
+      (mojo-mode)
+      (insert "def main():\n    x = 1\n")
+      (mojo-indent-line)
+      (expect (current-indentation) :to-equal 4)))
+
+  (it "dedents for return statement"
+    (with-temp-buffer
+      (mojo-mode)
+      (insert "def main():\n    x = 1\n    return")
+      (beginning-of-line)
+      (mojo-indent-line)
+      (expect (current-indentation) :to-equal 0)))
+
+  (it "indents nested blocks"
+    (with-temp-buffer
+      (mojo-mode)
+      (insert "def main():\n    if x:\n")
+      (mojo-indent-line)
+      (expect (current-indentation) :to-equal 8))))
 
 (describe "mojo-mode eglot integration"
   (it "registers mojo-mode in eglot-server-programs"

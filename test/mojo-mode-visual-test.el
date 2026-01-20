@@ -53,8 +53,8 @@ nil means no highlighting expected.")
     (("plain" . font-lock-preprocessor-face) . "First line is a decorator")
     (("plain" . font-lock-builtin-face) . "First line contains builtins")
     (("plain" . font-lock-constant-face) . "First line contains constants")
-    ;; We highlight self as a constant (Python convention)
-    (("special-vars" . font-lock-constant-face) . "self highlighted as constant")
+    ;; We highlight self/cls as variable-name (from TextMate variable.language.special)
+    (("special-vars" . font-lock-variable-name-face) . "self/cls as variable")
     ;; Decorators: website marks @ as punctuation, we highlight whole decorator
     (("punctuation" . font-lock-preprocessor-face) . "Decorator @ highlighted")
     ;; We highlight var/let as keywords, website sometimes marks as plain
